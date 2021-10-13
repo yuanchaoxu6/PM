@@ -1,0 +1,1200 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+LOCAL_PATH	/Users/sharemy/Downloads/iozone3_492/src/current/Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	macro	line:1
+LOCAL_CFLAGS	/Users/sharemy/Downloads/iozone3_492/src/current/Android.mk	/^LOCAL_CFLAGS:= -O3 -Dunix -DANDROID -DHAVE_ANSIC_C -DHAVE_PREAD -DNAME='"linux-arm"' -DLINUX_ARM -Dlinux -lrt -lpthread$/;"	macro	line:4
+LOCAL_SRC_FILES	/Users/sharemy/Downloads/iozone3_492/src/current/Android.mk	/^LOCAL_SRC_FILES:= iozone.c libbif.c$/;"	macro	line:6
+LOCAL_MODULE	/Users/sharemy/Downloads/iozone3_492/src/current/Android.mk	/^LOCAL_MODULE:= iozone$/;"	macro	line:8
+APP_ABI	/Users/sharemy/Downloads/iozone3_492/src/current/Application.mk	/^APP_ABI := armeabi-v7a arm64-v8a x86 x86_64$/;"	macro	line:1
+APP_PLATFORM	/Users/sharemy/Downloads/iozone3_492/src/current/Application.mk	/^APP_PLATFORM :=android-24 # mininum Android API level for appropriate multithreading support$/;"	macro	line:2
+CC	/Users/sharemy/Downloads/iozone3_492/src/current/makefile	/^CC	= cc$/;"	macro	line:12
+C89	/Users/sharemy/Downloads/iozone3_492/src/current/makefile	/^C89	= c89$/;"	macro	line:13
+GCC	/Users/sharemy/Downloads/iozone3_492/src/current/makefile	/^GCC	= gcc$/;"	macro	line:14
+CCS	/Users/sharemy/Downloads/iozone3_492/src/current/makefile	/^CCS	= \/usr\/ccs\/bin\/cc$/;"	macro	line:15
+NACC	/Users/sharemy/Downloads/iozone3_492/src/current/makefile	/^NACC	= \/opt\/ansic\/bin\/cc$/;"	macro	line:16
+CFLAGS	/Users/sharemy/Downloads/iozone3_492/src/current/makefile	/^CFLAGS	?=$/;"	macro	line:17
+S10GCCFLAGS	/Users/sharemy/Downloads/iozone3_492/src/current/makefile	/^S10GCCFLAGS    = -m64$/;"	macro	line:18
+S10CCFLAGS	/Users/sharemy/Downloads/iozone3_492/src/current/makefile	/^S10CCFLAGS     = -m64$/;"	macro	line:19
+FLAG64BIT	/Users/sharemy/Downloads/iozone3_492/src/current/makefile	/^FLAG64BIT      = -m64$/;"	macro	line:20
+NDK_ENV_VAR	/Users/sharemy/Downloads/iozone3_492/src/current/makefile	/^NDK_ENV_VAR    := $(shell echo $$NDK)$/;"	macro	line:21
+NDKBUILD	/Users/sharemy/Downloads/iozone3_492/src/current/makefile	/^NDKBUILD       := $(shell which ndk-build)$/;"	macro	line:22
+aio_error	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^#	define aio_error	/;"	macro	line:99	file:
+aio_return	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^#	define aio_return	/;"	macro	line:100	file:
+aio_read	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^#	define aio_read /;"	macro	line:101	file:
+aio_cancel	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^#	define aio_cancel	/;"	macro	line:102	file:
+aio_write	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^#	define aio_write	/;"	macro	line:103	file:
+off64_t	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^typedef off_t off64_t;$/;"	typedef	line:147	file:
+off64_t	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^typedef long long off64_t;$/;"	typedef	line:149	file:
+version	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^static const char version[] = "Libasync Version $Revision: 3.34 $";$/;"	variable	line:164	file:
+cache_ent	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^struct cache_ent {$/;"	struct	line:165	file:
+myaiocb	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^	aiocb64_t myaiocb;		\/* For use in large file mode *\/$/;"	member	line:167	struct:cache_ent	file:
+fd	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^	long long fd;				\/* File descriptor *\/$/;"	member	line:173	struct:cache_ent	file:
+size	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^	long long size;				\/* Size of the transfer *\/$/;"	member	line:174	struct:cache_ent	file:
+forward	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^	struct cache_ent *forward;		\/* link to next element on cache list *\/$/;"	member	line:175	struct:cache_ent	typeref:struct:cache_ent::cache_ent	file:
+back	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^	struct cache_ent *back;			\/* link to previous element on the cache list *\/$/;"	member	line:176	struct:cache_ent	typeref:struct:cache_ent::cache_ent	file:
+direct	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^	long long direct;			\/* flag to indicate if the buffer should be *\/$/;"	member	line:177	struct:cache_ent	file:
+real_address	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^	char *real_address;			\/* Real address to free *\/$/;"	member	line:179	struct:cache_ent	file:
+oldbuf	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^	volatile void *oldbuf;			\/* Used for firewall to prevent in flight *\/$/;"	member	line:181	struct:cache_ent	file:
+oldfd	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^	int oldfd;				\/* Used for firewall to prevent in flight *\/$/;"	member	line:183	struct:cache_ent	file:
+oldsize	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^	size_t oldsize;				\/* Used for firewall to prevent in flight *\/$/;"	member	line:185	struct:cache_ent	file:
+cache	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^struct cache {$/;"	struct	line:192	file:
+head	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^	struct cache_ent *head;		\/* Head of cache list *\/$/;"	member	line:193	struct:cache	typeref:struct:cache::cache_ent	file:
+tail	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^	struct cache_ent *tail;		\/* tail of cache list *\/$/;"	member	line:194	struct:cache	typeref:struct:cache::cache_ent	file:
+inuse_head	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^	struct cache_ent *inuse_head;	\/* head of in-use list *\/$/;"	member	line:195	struct:cache	typeref:struct:cache::cache_ent	file:
+count	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^	long long count;		\/* How many elements on the cache list *\/$/;"	member	line:196	struct:cache	file:
+w_head	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^	struct cache_ent *w_head;		\/* Head of cache list *\/$/;"	member	line:197	struct:cache	typeref:struct:cache::cache_ent	file:
+w_tail	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^	struct cache_ent *w_tail;		\/* tail of cache list *\/$/;"	member	line:198	struct:cache	typeref:struct:cache::cache_ent	file:
+w_count	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^	long long w_count;		\/* How many elements on the write list *\/$/;"	member	line:199	struct:cache	file:
+max_depth	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^long long max_depth;$/;"	variable	line:202
+__LP64__	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^#define __LP64__$/;"	macro	line:247	file:
+async_init	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^void async_init(struct cache **gc,int fd,int flag)$/;"	function	line:256	signature:(struct cache **gc,int fd,int flag)
+end_async	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^void end_async(struct cache *gc)$/;"	function	line:292	signature:(struct cache *gc)
+async_suspend	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^async_suspend(struct cache_ent *ce)$/;"	function	line:313	signature:(struct cache_ent *ce)
+async_read	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^int async_read(struct cache *gc, long long fd, char *ubuffer, off64_t offset, $/;"	function	line:371	signature:(struct cache *gc, long long fd, char *ubuffer, off64_t offset, long long size, long long stride, off64_t max, long long depth)
+alloc_cache	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^struct cache_ent * alloc_cache(struct cache *gc,long long fd,off64_t offset,long long size,long long op)$/;"	function	line:517	signature:(struct cache *gc,long long fd,off64_t offset,long long size,long long op)
+incache	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^incache(struct cache *gc, long long fd, off64_t offset, long long size)$/;"	function	line:570	signature:(struct cache *gc, long long fd, off64_t offset, long long size)
+takeoff_cache	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^takeoff_cache(struct cache *gc, struct cache_ent *ce)$/;"	function	line:603	signature:(struct cache *gc, struct cache_ent *ce)
+del_cache	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^del_cache(struct cache *gc)$/;"	function	line:674	signature:(struct cache *gc)
+async_read_no_copy	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^async_read_no_copy(struct cache *gc, long long fd, char **ubuffer, off64_t offset, long long size, long long stride, off64_t max, long long depth)$/;"	function	line:708	signature:(struct cache *gc, long long fd, char **ubuffer, off64_t offset, long long size, long long stride, off64_t max, long long depth)
+async_release	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^void async_release(struct cache *gc)$/;"	function	line:863	signature:(struct cache *gc)
+putoninuse	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^putoninuse(struct cache *gc,struct cache_ent *entry)$/;"	function	line:881	signature:(struct cache *gc,struct cache_ent *entry)
+takeoffinuse	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^takeoffinuse(struct cache *gc)$/;"	function	line:902	signature:(struct cache *gc)
+async_write	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^async_write(struct cache *gc,long long fd,char *buffer,long long size,off64_t offset,long long depth)$/;"	function	line:936	signature:(struct cache *gc,long long fd,char *buffer,long long size,off64_t offset,long long depth)
+allocate_write_buffer	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^allocate_write_buffer( struct cache *gc, long long fd, long long offset, long long size,long long op, $/;"	function	line:998	signature:( struct cache *gc, long long fd, long long offset, long long size,long long op, long long w_depth, long long direct, char *buffer, char *free_addr)
+async_put_on_write_queue	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^async_put_on_write_queue(struct cache *gc,struct cache_ent *ce)$/;"	function	line:1060	signature:(struct cache *gc,struct cache_ent *ce)
+async_write_finish	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^async_write_finish(struct cache *gc)$/;"	function	line:1084	signature:(struct cache *gc)
+async_wait_for_write	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^async_wait_for_write(struct cache *gc)$/;"	function	line:1103	signature:(struct cache *gc)
+async_write_no_copy	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^async_write_no_copy(struct cache *gc,long long fd,char *buffer,long long size,long long offset,long long depth,char *free_addr)$/;"	function	line:1173	signature:(struct cache *gc,long long fd,char *buffer,long long size,long long offset,long long depth,char *free_addr)
+mbcopy	/Users/sharemy/Downloads/iozone3_492/src/current/libasync.c	/^void mbcopy(source, dest, len)$/;"	function	line:1229
+write_gnuplot_file	/Users/sharemy/Downloads/iozone3_492/src/current/gengnuplot.sh	/^write_gnuplot_file() {$/;"	function	line:25
+THISVERSION	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define THISVERSION /;"	macro	line:63	file:
+NO_THREADS	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define NO_THREADS$/;"	macro	line:66	file:
+_GNU_SOURCE	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^  #define _GNU_SOURCE$/;"	macro	line:70	file:
+fork	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define fork /;"	macro	line:86	file:
+MODE	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define MODE /;"	macro	line:92	file:
+_64BIT_ARCH_	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define _64BIT_ARCH_$/;"	macro	line:93	file:
+MODE	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define MODE /;"	macro	line:95	file:
+pthread_setaffinity_np	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define pthread_setaffinity_np(/;"	macro	line:105	file:
+help	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char *help[] = {$/;"	variable	line:134
+head1	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char *head1[] = {$/;"	variable	line:262
+my_sig_t	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^  typedef void (*my_sig_t)(int);$/;"	typedef	line:301	file:
+O_SYNC	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define O_SYNC /;"	macro	line:318	file:
+O_RSYNC	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define O_RSYNC /;"	macro	line:324	file:
+MAP_FAILED	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define MAP_FAILED /;"	macro	line:361	file:
+off64_t	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^typedef long long off64_t;$/;"	typedef	line:365	file:
+__off64_t_defined	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define __off64_t_defined$/;"	macro	line:369	file:
+off64_t	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^typedef off_t off64_t;$/;"	typedef	line:370	file:
+__off64_t_defined	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define __off64_t_defined$/;"	macro	line:374	file:
+off64_t	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^typedef off_t off64_t;$/;"	typedef	line:375	file:
+off64_t	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^typedef long long off64_t;$/;"	typedef	line:389	file:
+NULL	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define NULL /;"	macro	line:418	file:
+VOLATILE	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define VOLATILE /;"	macro	line:427	file:
+VOLATILE	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define VOLATILE /;"	macro	line:429	file:
+MS_SYNC	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define MS_SYNC /;"	macro	line:439	file:
+MS_ASYNC	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define MS_ASYNC /;"	macro	line:440	file:
+MAP_ANONYMOUS	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define MAP_ANONYMOUS /;"	macro	line:444	file:
+MAP_FILE	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define MAP_FILE /;"	macro	line:448	file:
+page_size	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long page_size = 4096;$/;"	variable	line:452
+GOT_PAGESIZE	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define GOT_PAGESIZE /;"	macro	line:453	file:
+page_size	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long page_size = NBPG;$/;"	variable	line:455
+GOT_PAGESIZE	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define GOT_PAGESIZE /;"	macro	line:456	file:
+page_size	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long page_size = PAGE_SIZE;$/;"	variable	line:459
+GOT_PAGESIZE	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define GOT_PAGESIZE /;"	macro	line:460	file:
+page_size	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long page_size = 4096; \/* Used when all else fails *\/$/;"	variable	line:462
+PVECMAX	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define PVECMAX /;"	macro	line:467	file:
+PER_VECTOR_OFFSET	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define PER_VECTOR_OFFSET$/;"	macro	line:470	file:
+piov	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^struct piovec piov[PVECMAX];$/;"	variable	line:472	typeref:struct:piovec
+piov	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^struct iovec piov[PVECMAX];$/;"	variable	line:475	typeref:struct:iovec
+piov_base	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define piov_base /;"	macro	line:476	file:
+piov_len	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define piov_len /;"	macro	line:477	file:
+DEDUPSEED	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define DEDUPSEED /;"	macro	line:483	file:
+MAX_RAND	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define MAX_RAND /;"	macro	line:484	file:
+socket	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define socket /;"	macro	line:487	file:
+accept	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define accept /;"	macro	line:489	file:
+bind	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define bind /;"	macro	line:491	file:
+connect	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define connect /;"	macro	line:493	file:
+kill	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define kill /;"	macro	line:498	file:
+child_stats	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^struct child_stats {$/;"	struct	line:508	file:
+flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	long long flag;		\/* control space *\/$/;"	member	line:509	struct:child_stats	file:
+flag1	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	long long flag1;	\/* pad *\/$/;"	member	line:510	struct:child_stats	file:
+walltime	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	float walltime;	        \/* child elapsed time *\/$/;"	member	line:511	struct:child_stats	file:
+cputime	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	float cputime;		\/* child CPU time *\/$/;"	member	line:512	struct:child_stats	file:
+throughput	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	float throughput; 	\/* Throughput in either kb\/sec or ops\/sec *\/$/;"	member	line:513	struct:child_stats	file:
+actual	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	float actual;	   	\/* Either actual kb read or # of ops performed *\/$/;"	member	line:514	struct:child_stats	file:
+child_stat	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^} VOLATILE *child_stat;$/;"	variable	line:515	typeref:struct:child_stats
+runtime	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^struct runtime {$/;"	struct	line:520	file:
+walltime	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	float	walltime;$/;"	member	line:521	struct:runtime	file:
+cputime	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	float	cputime;$/;"	member	line:522	struct:runtime	file:
+cpuutil	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	float	cpuutil;$/;"	member	line:523	struct:runtime	file:
+client_command	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^struct client_command {$/;"	struct	line:540	file:
+c_host_name	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_host_name[100];$/;"	member	line:541	struct:client_command	file:
+c_pit_hostname	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_pit_hostname[40];$/;"	member	line:542	struct:client_command	file:
+c_pit_service	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_pit_service[8];$/;"	member	line:543	struct:client_command	file:
+c_client_name	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_client_name[100];$/;"	member	line:544	struct:client_command	file:
+c_working_dir	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_working_dir[200];$/;"	member	line:545	struct:client_command	file:
+c_file_name	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_file_name[200];$/;"	member	line:546	struct:client_command	file:
+c_path_dir	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_path_dir[200];$/;"	member	line:547	struct:client_command	file:
+c_execute_name	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_execute_name[200];$/;"	member	line:548	struct:client_command	file:
+c_write_traj_filename	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_write_traj_filename[200];$/;"	member	line:549	struct:client_command	file:
+c_read_traj_filename	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_read_traj_filename[200];$/;"	member	line:550	struct:client_command	file:
+c_oflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_oflag;$/;"	member	line:551	struct:client_command	file:
+c_mfflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_mfflag;$/;"	member	line:552	struct:client_command	file:
+c_unbuffered	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_unbuffered;$/;"	member	line:553	struct:client_command	file:
+c_noretest	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_noretest;$/;"	member	line:554	struct:client_command	file:
+c_notruncate	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_notruncate;$/;"	member	line:555	struct:client_command	file:
+c_read_sync	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_read_sync;$/;"	member	line:556	struct:client_command	file:
+c_jflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_jflag;$/;"	member	line:557	struct:client_command	file:
+c_async_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_async_flag;$/;"	member	line:558	struct:client_command	file:
+c_k_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_k_flag;$/;"	member	line:559	struct:client_command	file:
+c_h_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_h_flag;$/;"	member	line:560	struct:client_command	file:
+c_mflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_mflag;$/;"	member	line:561	struct:client_command	file:
+c_pflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_pflag;$/;"	member	line:562	struct:client_command	file:
+c_stride_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_stride_flag;$/;"	member	line:563	struct:client_command	file:
+c_verify	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_verify;$/;"	member	line:564	struct:client_command	file:
+c_sverify	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_sverify;$/;"	member	line:565	struct:client_command	file:
+c_odsync	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_odsync;$/;"	member	line:566	struct:client_command	file:
+c_diag_v	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_diag_v;$/;"	member	line:567	struct:client_command	file:
+c_zero_pct	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_zero_pct;$/;"	member	line:568	struct:client_command	file:
+c_N_special	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_N_special;$/;"	member	line:569	struct:client_command	file:
+c_dedup_granule_size	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_dedup_granule_size;$/;"	member	line:570	struct:client_command	file:
+c_dedup	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_dedup;$/;"	member	line:571	struct:client_command	file:
+c_dedup_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_dedup_flag;$/;"	member	line:572	struct:client_command	file:
+c_dedup_iflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_dedup_iflag;$/;"	member	line:573	struct:client_command	file:
+c_dedup_bflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_dedup_bflag;$/;"	member	line:574	struct:client_command	file:
+c_dedup_interior	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_dedup_interior;$/;"	member	line:575	struct:client_command	file:
+c_dedup_compress	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_dedup_compress;$/;"	member	line:576	struct:client_command	file:
+c_dedup_mseed	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_dedup_mseed;$/;"	member	line:577	struct:client_command	file:
+c_chid_skew	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_chid_skew;$/;"	member	line:578	struct:client_command	file:
+c_hist_summary	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_hist_summary;$/;"	member	line:579	struct:client_command	file:
+c_op_rate	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_op_rate;$/;"	member	line:580	struct:client_command	file:
+c_op_rate_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_op_rate_flag;$/;"	member	line:581	struct:client_command	file:
+c_Q_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_Q_flag;$/;"	member	line:582	struct:client_command	file:
+c_inc_think	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_inc_think;$/;"	member	line:583	struct:client_command	file:
+c_L_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_L_flag;$/;"	member	line:584	struct:client_command	file:
+c_OPS_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_OPS_flag;$/;"	member	line:585	struct:client_command	file:
+c_mmapflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_mmapflag;$/;"	member	line:586	struct:client_command	file:
+c_mmapasflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_mmapasflag;$/;"	member	line:587	struct:client_command	file:
+c_mmapnsflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_mmapnsflag;$/;"	member	line:588	struct:client_command	file:
+c_mmapssflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_mmapssflag;$/;"	member	line:589	struct:client_command	file:
+c_no_copy_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_no_copy_flag;$/;"	member	line:590	struct:client_command	file:
+c_include_close	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_include_close;$/;"	member	line:591	struct:client_command	file:
+c_include_flush	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_include_flush;$/;"	member	line:592	struct:client_command	file:
+c_disrupt_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_disrupt_flag;$/;"	member	line:593	struct:client_command	file:
+c_compute_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_compute_flag;$/;"	member	line:594	struct:client_command	file:
+c_xflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_xflag;$/;"	member	line:595	struct:client_command	file:
+c_MS_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_MS_flag;$/;"	member	line:596	struct:client_command	file:
+c_mmap_mix	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_mmap_mix;$/;"	member	line:597	struct:client_command	file:
+c_Kplus_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_Kplus_flag;$/;"	member	line:598	struct:client_command	file:
+c_stop_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_stop_flag;$/;"	member	line:599	struct:client_command	file:
+c_w_traj_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_w_traj_flag;$/;"	member	line:600	struct:client_command	file:
+c_r_traj_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_r_traj_flag;$/;"	member	line:601	struct:client_command	file:
+c_direct_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_direct_flag;$/;"	member	line:602	struct:client_command	file:
+c_cpuutilflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_cpuutilflag;$/;"	member	line:603	struct:client_command	file:
+c_seq_mix	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_seq_mix;$/;"	member	line:604	struct:client_command	file:
+c_del_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_del_flag;$/;"	member	line:605	struct:client_command	file:
+c_client_number	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_client_number;$/;"	member	line:606	struct:client_command	file:
+c_command	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_command;$/;"	member	line:607	struct:client_command	file:
+c_testnum	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_testnum;$/;"	member	line:608	struct:client_command	file:
+c_no_unlink	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_no_unlink;$/;"	member	line:609	struct:client_command	file:
+c_no_write	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_no_write;$/;"	member	line:610	struct:client_command	file:
+c_file_lock	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_file_lock;$/;"	member	line:611	struct:client_command	file:
+c_rec_lock	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_rec_lock;$/;"	member	line:612	struct:client_command	file:
+c_Kplus_readers	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_Kplus_readers;$/;"	member	line:613	struct:client_command	file:
+c_multiplier	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_multiplier;$/;"	member	line:614	struct:client_command	file:
+c_share_file	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_share_file;$/;"	member	line:615	struct:client_command	file:
+c_pattern	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_pattern;$/;"	member	line:616	struct:client_command	file:
+c_version	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_version;$/;"	member	line:617	struct:client_command	file:
+c_base_time	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_base_time;$/;"	member	line:618	struct:client_command	file:
+c_num_child	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_num_child;$/;"	member	line:619	struct:client_command	file:
+c_pct_read	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_pct_read;$/;"	member	line:620	struct:client_command	file:
+c_advise_op	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_advise_op;$/;"	member	line:621	struct:client_command	file:
+c_advise_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_advise_flag;$/;"	member	line:622	struct:client_command	file:
+c_restf	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_restf;$/;"	member	line:623	struct:client_command	file:
+c_mygen	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int c_mygen;$/;"	member	line:624	struct:client_command	file:
+c_stride	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	long long c_stride;$/;"	member	line:625	struct:client_command	file:
+c_rest_val	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	long long c_rest_val;$/;"	member	line:626	struct:client_command	file:
+c_delay	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	long long c_delay;$/;"	member	line:627	struct:client_command	file:
+c_purge	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	long long c_purge;$/;"	member	line:628	struct:client_command	file:
+c_fetchon	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	long long c_fetchon;$/;"	member	line:629	struct:client_command	file:
+c_numrecs64	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	long long c_numrecs64;$/;"	member	line:630	struct:client_command	file:
+c_reclen	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	long long c_reclen;$/;"	member	line:631	struct:client_command	file:
+c_child_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	long long c_child_flag;$/;"	member	line:632	struct:client_command	file:
+c_delay_start	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	long long c_delay_start;$/;"	member	line:633	struct:client_command	file:
+c_depth	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	long long c_depth;$/;"	member	line:634	struct:client_command	file:
+c_compute_time	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	float c_compute_time;$/;"	member	line:635	struct:client_command	file:
+client_neutral_command	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^struct client_neutral_command {$/;"	struct	line:649	file:
+c_host_name	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_host_name[100];$/;"	member	line:650	struct:client_neutral_command	file:
+c_pit_hostname	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_pit_hostname[40];$/;"	member	line:651	struct:client_neutral_command	file:
+c_pit_service	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_pit_service[8];$/;"	member	line:652	struct:client_neutral_command	file:
+c_client_name	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_client_name[100];$/;"	member	line:653	struct:client_neutral_command	file:
+c_working_dir	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_working_dir[200];$/;"	member	line:654	struct:client_neutral_command	file:
+c_file_name	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_file_name[200];$/;"	member	line:655	struct:client_neutral_command	file:
+c_path_dir	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_path_dir[200];$/;"	member	line:656	struct:client_neutral_command	file:
+c_execute_name	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_execute_name[200];$/;"	member	line:657	struct:client_neutral_command	file:
+c_write_traj_filename	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_write_traj_filename[200];$/;"	member	line:658	struct:client_neutral_command	file:
+c_read_traj_filename	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_read_traj_filename[200];$/;"	member	line:659	struct:client_neutral_command	file:
+c_oflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_oflag[2];$/;"	member	line:660	struct:client_neutral_command	file:
+c_mfflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_mfflag[2];$/;"	member	line:661	struct:client_neutral_command	file:
+c_unbuffered	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_unbuffered[2];$/;"	member	line:662	struct:client_neutral_command	file:
+c_noretest	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_noretest[2];$/;"	member	line:663	struct:client_neutral_command	file:
+c_notruncate	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_notruncate[2];$/;"	member	line:664	struct:client_neutral_command	file:
+c_read_sync	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_read_sync[2];$/;"	member	line:665	struct:client_neutral_command	file:
+c_jflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_jflag[2];$/;"	member	line:666	struct:client_neutral_command	file:
+c_async_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_async_flag[2];$/;"	member	line:667	struct:client_neutral_command	file:
+c_k_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_k_flag[2];$/;"	member	line:668	struct:client_neutral_command	file:
+c_h_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_h_flag[2];$/;"	member	line:669	struct:client_neutral_command	file:
+c_mflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_mflag[2];$/;"	member	line:670	struct:client_neutral_command	file:
+c_pflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_pflag[2];$/;"	member	line:671	struct:client_neutral_command	file:
+c_stride_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_stride_flag[2];$/;"	member	line:672	struct:client_neutral_command	file:
+c_verify	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_verify[2];$/;"	member	line:673	struct:client_neutral_command	file:
+c_sverify	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_sverify[2];$/;"	member	line:674	struct:client_neutral_command	file:
+c_odsync	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_odsync[2];$/;"	member	line:675	struct:client_neutral_command	file:
+c_diag_v	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_diag_v[2];$/;"	member	line:676	struct:client_neutral_command	file:
+c_zero_pct	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_zero_pct[4];$/;"	member	line:677	struct:client_neutral_command	file:
+c_N_special	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_N_special[4];$/;"	member	line:678	struct:client_neutral_command	file:
+c_dedup_granule_size	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_dedup_granule_size[8];$/;"	member	line:679	struct:client_neutral_command	file:
+c_dedup	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_dedup[4];$/;"	member	line:680	struct:client_neutral_command	file:
+c_dedup_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_dedup_flag[4];$/;"	member	line:681	struct:client_neutral_command	file:
+c_dedup_iflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_dedup_iflag[4];$/;"	member	line:682	struct:client_neutral_command	file:
+c_dedup_bflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_dedup_bflag[4];$/;"	member	line:683	struct:client_neutral_command	file:
+c_dedup_interior	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_dedup_interior[4];$/;"	member	line:684	struct:client_neutral_command	file:
+c_dedup_compress	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_dedup_compress[4];$/;"	member	line:685	struct:client_neutral_command	file:
+c_dedup_mseed	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_dedup_mseed[4];$/;"	member	line:686	struct:client_neutral_command	file:
+c_chid_skew	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_chid_skew[4];$/;"	member	line:687	struct:client_neutral_command	file:
+c_hist_summary	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_hist_summary[4];$/;"	member	line:688	struct:client_neutral_command	file:
+c_op_rate	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_op_rate[4];$/;"	member	line:689	struct:client_neutral_command	file:
+c_op_rate_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_op_rate_flag[2];$/;"	member	line:690	struct:client_neutral_command	file:
+c_Q_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_Q_flag[2];$/;"	member	line:691	struct:client_neutral_command	file:
+c_inc_think	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_inc_think[2];$/;"	member	line:692	struct:client_neutral_command	file:
+c_L_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_L_flag[2];$/;"	member	line:693	struct:client_neutral_command	file:
+c_OPS_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_OPS_flag[2];$/;"	member	line:694	struct:client_neutral_command	file:
+c_mmapflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_mmapflag[2];$/;"	member	line:695	struct:client_neutral_command	file:
+c_mmapasflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_mmapasflag[2];$/;"	member	line:696	struct:client_neutral_command	file:
+c_mmapnsflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_mmapnsflag[2];$/;"	member	line:697	struct:client_neutral_command	file:
+c_mmapssflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_mmapssflag[2];$/;"	member	line:698	struct:client_neutral_command	file:
+c_no_copy_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_no_copy_flag[2];$/;"	member	line:699	struct:client_neutral_command	file:
+c_include_close	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_include_close[2];$/;"	member	line:700	struct:client_neutral_command	file:
+c_include_flush	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_include_flush[2];$/;"	member	line:701	struct:client_neutral_command	file:
+c_disrupt_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_disrupt_flag[2];$/;"	member	line:702	struct:client_neutral_command	file:
+c_compute_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_compute_flag[2];$/;"	member	line:703	struct:client_neutral_command	file:
+c_stop_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_stop_flag[2];$/;"	member	line:704	struct:client_neutral_command	file:
+c_xflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_xflag[2];$/;"	member	line:705	struct:client_neutral_command	file:
+c_MS_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_MS_flag[2];$/;"	member	line:706	struct:client_neutral_command	file:
+c_mmap_mix	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_mmap_mix[2];$/;"	member	line:707	struct:client_neutral_command	file:
+c_Kplus_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_Kplus_flag[2];$/;"	member	line:708	struct:client_neutral_command	file:
+c_w_traj_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_w_traj_flag[2];		\/* small int *\/$/;"	member	line:709	struct:client_neutral_command	file:
+c_r_traj_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_r_traj_flag[2];		\/* small int *\/$/;"	member	line:710	struct:client_neutral_command	file:
+c_direct_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_direct_flag[2]; 		\/* small int *\/$/;"	member	line:711	struct:client_neutral_command	file:
+c_cpuutilflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_cpuutilflag[2]; 		\/* small int *\/$/;"	member	line:712	struct:client_neutral_command	file:
+c_seq_mix	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_seq_mix[2]; 		\/* small int *\/$/;"	member	line:713	struct:client_neutral_command	file:
+c_del_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_del_flag[2];		\/* small int *\/$/;"	member	line:714	struct:client_neutral_command	file:
+c_stride	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_stride[10]; 		\/* small long long *\/$/;"	member	line:715	struct:client_neutral_command	file:
+c_rest_val	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_rest_val[10]; 		\/* small long long *\/$/;"	member	line:716	struct:client_neutral_command	file:
+c_purge	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_purge[10]; 		\/* very small long long *\/$/;"	member	line:717	struct:client_neutral_command	file:
+c_fetchon	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_fetchon[10]; 		\/* very small long long *\/$/;"	member	line:718	struct:client_neutral_command	file:
+c_multiplier	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_multiplier[10]; 		\/* small int *\/$/;"	member	line:719	struct:client_neutral_command	file:
+c_share_file	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_share_file[10];		\/* small int *\/$/;"	member	line:720	struct:client_neutral_command	file:
+c_file_lock	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_file_lock[10]; 		\/* small int *\/$/;"	member	line:721	struct:client_neutral_command	file:
+c_rec_lock	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_rec_lock[10]; 		\/* small int *\/$/;"	member	line:722	struct:client_neutral_command	file:
+c_Kplus_readers	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_Kplus_readers[10];	\/* small int *\/$/;"	member	line:723	struct:client_neutral_command	file:
+c_client_number	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_client_number[20]; 	\/* int *\/$/;"	member	line:724	struct:client_neutral_command	file:
+c_command	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_command[20]; 		\/* int *\/$/;"	member	line:725	struct:client_neutral_command	file:
+c_testnum	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_testnum[20]; 		\/* int *\/$/;"	member	line:726	struct:client_neutral_command	file:
+c_no_unlink	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_no_unlink[4]; 		\/* int *\/$/;"	member	line:727	struct:client_neutral_command	file:
+c_no_write	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_no_write[4]; 		\/* int *\/$/;"	member	line:728	struct:client_neutral_command	file:
+c_pattern	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_pattern[20]; 		\/* int *\/$/;"	member	line:729	struct:client_neutral_command	file:
+c_version	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_version[20]; 		\/* int *\/$/;"	member	line:730	struct:client_neutral_command	file:
+c_base_time	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_base_time[20]; 		\/* int *\/$/;"	member	line:731	struct:client_neutral_command	file:
+c_num_child	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_num_child[20]; 		\/* int *\/$/;"	member	line:732	struct:client_neutral_command	file:
+c_pct_read	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_pct_read[6]; 		\/* small int *\/$/;"	member	line:733	struct:client_neutral_command	file:
+c_advise_op	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_advise_op[4]; 		\/* small int *\/$/;"	member	line:734	struct:client_neutral_command	file:
+c_advise_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_advise_flag[4]; 		\/* small int *\/$/;"	member	line:735	struct:client_neutral_command	file:
+c_restf	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_restf[4]; 		\/* small int *\/$/;"	member	line:736	struct:client_neutral_command	file:
+c_mygen	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_mygen[20]; 		\/* long *\/$/;"	member	line:737	struct:client_neutral_command	file:
+c_depth	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_depth[20]; 		\/* small long long *\/$/;"	member	line:738	struct:client_neutral_command	file:
+c_child_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_child_flag[40]; 		\/* small long long *\/$/;"	member	line:739	struct:client_neutral_command	file:
+c_delay	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_delay[80]; 		\/* long long *\/$/;"	member	line:740	struct:client_neutral_command	file:
+c_numrecs64	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_numrecs64[80]; 		\/* long long *\/$/;"	member	line:741	struct:client_neutral_command	file:
+c_reclen	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_reclen[80]; 		\/* long long *\/$/;"	member	line:742	struct:client_neutral_command	file:
+c_delay_start	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_delay_start[80]; 	\/* long long *\/$/;"	member	line:743	struct:client_neutral_command	file:
+c_compute_time	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char c_compute_time[80]; 	\/* float *\/$/;"	member	line:744	struct:client_neutral_command	file:
+master_command	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^struct master_command {$/;"	struct	line:752	file:
+m_host_name	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char m_host_name[100];$/;"	member	line:753	struct:master_command	file:
+m_client_name	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char m_client_name[100];$/;"	member	line:754	struct:master_command	file:
+m_stop_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char m_stop_flag; $/;"	member	line:755	struct:master_command	file:
+m_client_number	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int m_client_number;$/;"	member	line:756	struct:master_command	file:
+m_client_error	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int m_client_error;$/;"	member	line:757	struct:master_command	file:
+m_child_port	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int m_child_port;$/;"	member	line:758	struct:master_command	file:
+m_child_async_port	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int m_child_async_port;$/;"	member	line:759	struct:master_command	file:
+m_command	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int m_command;$/;"	member	line:760	struct:master_command	file:
+m_testnum	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int m_testnum;$/;"	member	line:761	struct:master_command	file:
+m_version	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int m_version;$/;"	member	line:762	struct:master_command	file:
+m_mygen	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int m_mygen;$/;"	member	line:763	struct:master_command	file:
+m_throughput	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	float m_throughput;$/;"	member	line:764	struct:master_command	file:
+m_cputime	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	float m_cputime;$/;"	member	line:765	struct:master_command	file:
+m_walltime	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	float m_walltime;$/;"	member	line:766	struct:master_command	file:
+m_actual	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	float m_actual;$/;"	member	line:767	struct:master_command	file:
+m_child_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	long long m_child_flag;$/;"	member	line:768	struct:master_command	file:
+master_neutral_command	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^struct master_neutral_command {$/;"	struct	line:777	file:
+m_host_name	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char m_host_name[100];$/;"	member	line:778	struct:master_neutral_command	file:
+m_client_name	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char m_client_name[100];$/;"	member	line:779	struct:master_neutral_command	file:
+m_client_number	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char m_client_number[20];	\/* int *\/$/;"	member	line:780	struct:master_neutral_command	file:
+m_client_error	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char m_client_error[20];	\/* int *\/$/;"	member	line:781	struct:master_neutral_command	file:
+m_stop_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char m_stop_flag[4];		\/* char +space *\/$/;"	member	line:782	struct:master_neutral_command	file:
+m_child_port	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char m_child_port[20];		\/* int *\/$/;"	member	line:783	struct:master_neutral_command	file:
+m_child_async_port	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char m_child_async_port[20];	\/* int *\/$/;"	member	line:784	struct:master_neutral_command	file:
+m_command	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char m_command[20];		\/* int *\/$/;"	member	line:785	struct:master_neutral_command	file:
+m_testnum	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char m_testnum[20];		\/* int *\/$/;"	member	line:786	struct:master_neutral_command	file:
+m_version	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char m_version[20];		\/* int *\/$/;"	member	line:787	struct:master_neutral_command	file:
+m_mygen	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char m_mygen[20];		\/* int *\/$/;"	member	line:788	struct:master_neutral_command	file:
+m_throughput	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char m_throughput[80];		\/* float *\/$/;"	member	line:789	struct:master_neutral_command	file:
+m_cputime	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char m_cputime[80];		\/* float *\/$/;"	member	line:790	struct:master_neutral_command	file:
+m_walltime	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char m_walltime[80];		\/* float *\/$/;"	member	line:791	struct:master_neutral_command	file:
+m_actual	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char m_actual[80];		\/* float *\/$/;"	member	line:792	struct:master_neutral_command	file:
+m_child_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char m_child_flag[80];		\/* long long *\/$/;"	member	line:793	struct:master_neutral_command	file:
+R_CHILD_JOIN	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define R_CHILD_JOIN /;"	macro	line:800	file:
+R_STAT_DATA	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define R_STAT_DATA /;"	macro	line:801	file:
+R_FLAG_DATA	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define R_FLAG_DATA /;"	macro	line:802	file:
+R_JOIN_ACK	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define R_JOIN_ACK /;"	macro	line:810	file:
+R_STOP_FLAG	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define R_STOP_FLAG /;"	macro	line:811	file:
+R_TERMINATE	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define R_TERMINATE /;"	macro	line:812	file:
+R_DEATH	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define R_DEATH /;"	macro	line:813	file:
+MY_CACHE_LINE_SIZE	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define MY_CACHE_LINE_SIZE /;"	macro	line:819	file:
+MY_CACHE_SIZE	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define MY_CACHE_SIZE /;"	macro	line:820	file:
+MEG	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define MEG /;"	macro	line:823	file:
+STRIDE	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define STRIDE /;"	macro	line:829	file:
+IBUFSIZE	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define IBUFSIZE /;"	macro	line:844	file:
+DISRUPT	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define DISRUPT /;"	macro	line:848	file:
+LARGE_REC	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define LARGE_REC /;"	macro	line:855	file:
+KILOBYTES	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define KILOBYTES /;"	macro	line:858	file:
+RECLEN	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define RECLEN /;"	macro	line:861	file:
+FILESIZE	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define FILESIZE /;"	macro	line:864	file:
+NUMRECS	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define NUMRECS /;"	macro	line:867	file:
+CROSSOVER	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define CROSSOVER /;"	macro	line:871	file:
+MAXBUFFERSIZE	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define MAXBUFFERSIZE /;"	macro	line:873	file:
+CROSSOVER	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define CROSSOVER /;"	macro	line:876	file:
+MAXBUFFERSIZE	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define MAXBUFFERSIZE /;"	macro	line:878	file:
+MAXSTREAMS	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define	MAXSTREAMS	/;"	macro	line:882	file:
+MINBUFFERSIZE	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define MINBUFFERSIZE /;"	macro	line:885	file:
+TOOFAST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define TOOFAST /;"	macro	line:887	file:
+MAXTESTS	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define MAXTESTS /;"	macro	line:889	file:
+PATTERN	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define PATTERN /;"	macro	line:891	file:
+PATTERN1	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define PATTERN1 /;"	macro	line:892	file:
+MAX_X	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define MAX_X /;"	macro	line:894	file:
+MAX_Y	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define MAX_Y /;"	macro	line:896	file:
+USAGE	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define USAGE /;"	macro	line:898	file:
+MAXNAMESIZE	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define MAXNAMESIZE /;"	macro	line:902	file:
+CONTROL_STRING2	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define CONTROL_STRING2 /;"	macro	line:912	file:
+CONTROL_STRING3	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define CONTROL_STRING3 /;"	macro	line:913	file:
+CONTROL_STRING4	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define CONTROL_STRING4 /;"	macro	line:914	file:
+CONTROL_STRING2	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define CONTROL_STRING2 /;"	macro	line:916	file:
+CONTROL_STRING3	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define CONTROL_STRING3 /;"	macro	line:917	file:
+CONTROL_STRING4	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define CONTROL_STRING4 /;"	macro	line:918	file:
+CONTROL_STRING2	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define CONTROL_STRING2 /;"	macro	line:921	file:
+CONTROL_STRING3	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define CONTROL_STRING3 /;"	macro	line:922	file:
+CONTROL_STRING4	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define CONTROL_STRING4 /;"	macro	line:923	file:
+CONTROL_STRING2	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define CONTROL_STRING2 /;"	macro	line:931	file:
+CONTROL_STRING3	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define CONTROL_STRING3 /;"	macro	line:932	file:
+CONTROL_STRING4	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define CONTROL_STRING4 /;"	macro	line:933	file:
+CONTROL_STRING2	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define CONTROL_STRING2 /;"	macro	line:935	file:
+CONTROL_STRING3	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define CONTROL_STRING3 /;"	macro	line:936	file:
+CONTROL_STRING4	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define CONTROL_STRING4 /;"	macro	line:937	file:
+CONTROL_STRING2	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define CONTROL_STRING2 /;"	macro	line:940	file:
+CONTROL_STRING3	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define CONTROL_STRING3 /;"	macro	line:941	file:
+CONTROL_STRING4	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define CONTROL_STRING4 /;"	macro	line:942	file:
+KILOBYTES_START	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define KILOBYTES_START /;"	macro	line:952	file:
+KILOBYTES_END	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define KILOBYTES_END /;"	macro	line:954	file:
+RECLEN_START	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define RECLEN_START /;"	macro	line:956	file:
+RECLEN_END	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define RECLEN_END /;"	macro	line:958	file:
+MULTIPLIER	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define MULTIPLIER /;"	macro	line:960	file:
+WRITER_TEST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define WRITER_TEST	/;"	macro	line:965	file:
+READER_TEST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define READER_TEST	/;"	macro	line:966	file:
+RANDOM_RW_TEST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define RANDOM_RW_TEST	/;"	macro	line:967	file:
+REVERSE_TEST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define REVERSE_TEST	/;"	macro	line:968	file:
+REWRITE_REC_TEST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define REWRITE_REC_TEST	/;"	macro	line:969	file:
+STRIDE_READ_TEST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define STRIDE_READ_TEST	/;"	macro	line:970	file:
+FWRITER_TEST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define FWRITER_TEST	/;"	macro	line:971	file:
+FREADER_TEST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define FREADER_TEST	/;"	macro	line:972	file:
+RANDOM_MIX_TEST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define RANDOM_MIX_TEST	/;"	macro	line:973	file:
+PWRITER_TEST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define PWRITER_TEST	/;"	macro	line:975	file:
+PREADER_TEST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define PREADER_TEST	/;"	macro	line:976	file:
+PWRITEV_TEST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define PWRITEV_TEST	/;"	macro	line:979	file:
+PREADV_TEST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define PREADV_TEST	/;"	macro	line:980	file:
+WRITER_MASK	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define WRITER_MASK	/;"	macro	line:983	file:
+READER_MASK	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define READER_MASK	/;"	macro	line:984	file:
+RANDOM_RW_MASK	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define RANDOM_RW_MASK	/;"	macro	line:985	file:
+RANDOM_MIX_MASK	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define RANDOM_MIX_MASK	/;"	macro	line:986	file:
+REVERSE_MASK	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define REVERSE_MASK	/;"	macro	line:987	file:
+REWRITE_REC_MASK	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define REWRITE_REC_MASK	/;"	macro	line:988	file:
+STRIDE_READ_MASK	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define STRIDE_READ_MASK	/;"	macro	line:989	file:
+FWRITER_MASK	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define FWRITER_MASK	/;"	macro	line:990	file:
+FREADER_MASK	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define FREADER_MASK	/;"	macro	line:991	file:
+PWRITER_MASK	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define PWRITER_MASK	/;"	macro	line:993	file:
+PREADER_MASK	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define PREADER_MASK	/;"	macro	line:994	file:
+PWRITEV_MASK	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define PWRITEV_MASK	/;"	macro	line:997	file:
+PREADV_MASK	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define PREADV_MASK	/;"	macro	line:998	file:
+CHILD_STATE_HOLD	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define CHILD_STATE_HOLD	/;"	macro	line:1005	file:
+CHILD_STATE_READY	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define CHILD_STATE_READY	/;"	macro	line:1007	file:
+CHILD_STATE_BEGIN	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define CHILD_STATE_BEGIN	/;"	macro	line:1009	file:
+CHILD_STATE_DONE	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define CHILD_STATE_DONE	/;"	macro	line:1011	file:
+MERSENNE	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define MERSENNE$/;"	macro	line:1013	file:
+cputime_so_far	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define cputime_so_far(/;"	macro	line:1096	file:
+cputime_so_far	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define cputime_so_far(/;"	macro	line:1214	file:
+I_LSEEK	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define I_LSEEK(/;"	macro	line:1420	file:
+I_OPEN	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define I_OPEN(/;"	macro	line:1421	file:
+I_CREAT	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define I_CREAT(/;"	macro	line:1422	file:
+I_FOPEN	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define I_FOPEN(/;"	macro	line:1423	file:
+I_STAT	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define I_STAT(/;"	macro	line:1424	file:
+I_PREAD	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define I_PREAD(/;"	macro	line:1426	file:
+I_PWRITE	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define I_PWRITE(/;"	macro	line:1427	file:
+I_MMAP	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define I_MMAP(/;"	macro	line:1429	file:
+I_LSEEK	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define I_LSEEK(/;"	macro	line:1431	file:
+I_OPEN	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define I_OPEN(/;"	macro	line:1432	file:
+I_CREAT	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define I_CREAT(/;"	macro	line:1433	file:
+I_FOPEN	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define I_FOPEN(/;"	macro	line:1434	file:
+I_STAT	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define I_STAT(/;"	macro	line:1435	file:
+I_PREAD	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define I_PREAD(/;"	macro	line:1437	file:
+I_PWRITE	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define I_PWRITE(/;"	macro	line:1438	file:
+I_MMAP	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define I_MMAP(/;"	macro	line:1440	file:
+func	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^void (*func[])() = { $/;"	variable	line:1447
+test_output	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char *test_output[] ={"                  ",  $/;"	variable	line:1488
+test_soutput	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long test_soutput[] = {2,2,2,1,1,1,2,2,2,2,2,2,2,2};$/;"	variable	line:1505
+SHMSIZE	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define SHMSIZE /;"	macro	line:1518	file:
+shmaddr	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^VOLATILE struct child_stats *shmaddr;$/;"	variable	line:1522	typeref:struct:child_stats
+totaltime	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^double totaltime,total_time, temp_time ,total_kilos;$/;"	variable	line:1523
+total_time	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^double totaltime,total_time, temp_time ,total_kilos;$/;"	variable	line:1523
+temp_time	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^double totaltime,total_time, temp_time ,total_kilos;$/;"	variable	line:1523
+total_kilos	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^double totaltime,total_time, temp_time ,total_kilos;$/;"	variable	line:1523
+report_array	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^off64_t report_array[MAX_X][MAX_Y];$/;"	variable	line:1524
+report_darray	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^double report_darray[MAX_X][MAXSTREAMS];$/;"	variable	line:1525
+time_res	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^double time_res,cputime_res;$/;"	variable	line:1526
+cputime_res	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^double time_res,cputime_res;$/;"	variable	line:1526
+throughput_array	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long throughput_array[MAX_X];	\/* Filesize & record size are constants *\/$/;"	variable	line:1527
+current_x	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^short current_x, current_y;$/;"	variable	line:1528
+current_y	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^short current_x, current_y;$/;"	variable	line:1528
+orig_size	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long orig_size;$/;"	variable	line:1529
+max_x	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long max_x, max_y;$/;"	variable	line:1530
+max_y	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long max_x, max_y;$/;"	variable	line:1530
+goodkilos	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^unsigned long long goodkilos;$/;"	variable	line:1531
+kilobytes64	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^off64_t kilobytes64 = (off64_t)KILOBYTES;$/;"	variable	line:1532
+goodrecl	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long goodrecl;$/;"	variable	line:1533
+offset	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^off64_t offset = 0;               \/*offset for random I\/O *\/$/;"	variable	line:1534
+offset64	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^off64_t offset64 = 0;               \/*offset for random I\/O *\/$/;"	variable	line:1535
+filebytes64	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^off64_t filebytes64;$/;"	variable	line:1536
+r_range	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^off64_t r_range[100];$/;"	variable	line:1537
+s_range	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^off64_t s_range[100];$/;"	variable	line:1538
+t_range	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int t_range[100];$/;"	variable	line:1539
+t_count	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int t_count = 0;$/;"	variable	line:1540
+r_count	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int r_count,s_count;$/;"	variable	line:1541
+s_count	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int r_count,s_count;$/;"	variable	line:1541
+barray	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char *barray[MAXSTREAMS];$/;"	variable	line:1542
+haveshm	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char *haveshm;$/;"	variable	line:1543
+onetime	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long onetime, auto_mode, sfd, multi_buffer;$/;"	variable	line:1547
+auto_mode	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long onetime, auto_mode, sfd, multi_buffer;$/;"	variable	line:1547
+sfd	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long onetime, auto_mode, sfd, multi_buffer;$/;"	variable	line:1547
+multi_buffer	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long onetime, auto_mode, sfd, multi_buffer;$/;"	variable	line:1547
+exit_code	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int exit_code = 0;  $/;"	variable	line:1548
+fd	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int fd;$/;"	variable	line:1549
+sp_msfd	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int sp_msfd,sp_mrfd,sp_csfd,sp_crfd;$/;"	variable	line:1550
+sp_mrfd	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int sp_msfd,sp_mrfd,sp_csfd,sp_crfd;$/;"	variable	line:1550
+sp_csfd	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int sp_msfd,sp_mrfd,sp_csfd,sp_crfd;$/;"	variable	line:1550
+sp_crfd	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int sp_msfd,sp_mrfd,sp_csfd,sp_crfd;$/;"	variable	line:1550
+begin_proc	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int begin_proc,num_processors,ioz_processor_bind;$/;"	variable	line:1551
+num_processors	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int begin_proc,num_processors,ioz_processor_bind;$/;"	variable	line:1551
+ioz_processor_bind	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int begin_proc,num_processors,ioz_processor_bind;$/;"	variable	line:1551
+res_prob	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long res_prob,rec_prob;$/;"	variable	line:1552
+rec_prob	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long res_prob,rec_prob;$/;"	variable	line:1552
+silent	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char silent,read_sync;$/;"	variable	line:1553
+read_sync	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char silent,read_sync;$/;"	variable	line:1553
+master_iozone	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char master_iozone, client_iozone,distributed;$/;"	variable	line:1554
+client_iozone	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char master_iozone, client_iozone,distributed;$/;"	variable	line:1554
+distributed	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char master_iozone, client_iozone,distributed;$/;"	variable	line:1554
+bif_fd	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int bif_fd,s_count;$/;"	variable	line:1555
+s_count	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int bif_fd,s_count;$/;"	variable	line:1555
+bif_row	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int bif_row,bif_column;$/;"	variable	line:1556
+bif_column	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int bif_row,bif_column;$/;"	variable	line:1556
+dedup_mseed	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int dedup_mseed = 1;$/;"	variable	line:1557
+chid_skew	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int chid_skew = 0;$/;"	variable	line:1558
+hist_summary	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int hist_summary;$/;"	variable	line:1559
+op_rate	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int op_rate;$/;"	variable	line:1560
+op_rate_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int op_rate_flag;$/;"	variable	line:1561
+aflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char aflag, Eflag, hflag, Rflag, rflag, sflag,del_flag,mix_test;$/;"	variable	line:1562
+Eflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char aflag, Eflag, hflag, Rflag, rflag, sflag,del_flag,mix_test;$/;"	variable	line:1562
+hflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char aflag, Eflag, hflag, Rflag, rflag, sflag,del_flag,mix_test;$/;"	variable	line:1562
+Rflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char aflag, Eflag, hflag, Rflag, rflag, sflag,del_flag,mix_test;$/;"	variable	line:1562
+rflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char aflag, Eflag, hflag, Rflag, rflag, sflag,del_flag,mix_test;$/;"	variable	line:1562
+sflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char aflag, Eflag, hflag, Rflag, rflag, sflag,del_flag,mix_test;$/;"	variable	line:1562
+del_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char aflag, Eflag, hflag, Rflag, rflag, sflag,del_flag,mix_test;$/;"	variable	line:1562
+mix_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char aflag, Eflag, hflag, Rflag, rflag, sflag,del_flag,mix_test;$/;"	variable	line:1562
+diag_v	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char diag_v,sent_stop,dedup,dedup_interior,dedup_compress, dedup_flag, dedup_iflag,dedup_bflag;$/;"	variable	line:1563
+sent_stop	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char diag_v,sent_stop,dedup,dedup_interior,dedup_compress, dedup_flag, dedup_iflag,dedup_bflag;$/;"	variable	line:1563
+dedup	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char diag_v,sent_stop,dedup,dedup_interior,dedup_compress, dedup_flag, dedup_iflag,dedup_bflag;$/;"	variable	line:1563
+dedup_interior	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char diag_v,sent_stop,dedup,dedup_interior,dedup_compress, dedup_flag, dedup_iflag,dedup_bflag;$/;"	variable	line:1563
+dedup_compress	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char diag_v,sent_stop,dedup,dedup_interior,dedup_compress, dedup_flag, dedup_iflag,dedup_bflag;$/;"	variable	line:1563
+dedup_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char diag_v,sent_stop,dedup,dedup_interior,dedup_compress, dedup_flag, dedup_iflag,dedup_bflag;$/;"	variable	line:1563
+dedup_iflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char diag_v,sent_stop,dedup,dedup_interior,dedup_compress, dedup_flag, dedup_iflag,dedup_bflag;$/;"	variable	line:1563
+dedup_bflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char diag_v,sent_stop,dedup,dedup_interior,dedup_compress, dedup_flag, dedup_iflag,dedup_bflag;$/;"	variable	line:1563
+zero_pct	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int zero_pct = -1;$/;"	variable	line:1564
+N_special	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int N_special = 0;$/;"	variable	line:1565
+W_special	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int W_special = 0;$/;"	variable	line:1566
+dedup_granule_size	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int dedup_granule_size = 4096;$/;"	variable	line:1567
+dedup_unit_step	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int dedup_unit_step = 1024;$/;"	variable	line:1568
+dedup_ibuf	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char *dedup_ibuf;$/;"	variable	line:1569
+dedup_temp	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char *dedup_temp;$/;"	variable	line:1570
+bif_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char bif_flag;$/;"	variable	line:1571
+rlocking	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int rlocking;$/;"	variable	line:1572
+share_file	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int share_file;$/;"	variable	line:1573
+ecount	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int ecount;$/;"	variable	line:1574
+gflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char gflag,nflag;$/;"	variable	line:1575
+nflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char gflag,nflag;$/;"	variable	line:1575
+yflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char yflag,qflag;$/;"	variable	line:1576
+qflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char yflag,qflag;$/;"	variable	line:1576
+build_name	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char *build_name = "Windows";$/;"	variable	line:1578
+build_name	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char *build_name = NAME;$/;"	variable	line:1580
+imon_start	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char imon_start[256],imon_stop[256]; $/;"	variable	line:1582
+imon_stop	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char imon_start[256],imon_stop[256]; $/;"	variable	line:1582
+imon_sync	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char imon_sync;$/;"	variable	line:1583
+trflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char trflag; $/;"	variable	line:1584
+cpuutilflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char cpuutilflag;$/;"	variable	line:1585
+seq_mix	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char seq_mix;$/;"	variable	line:1586
+base_time	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long base_time;$/;"	variable	line:1587
+mint	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long mint, maxt; $/;"	variable	line:1588
+maxt	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long mint, maxt; $/;"	variable	line:1588
+w_traj_ops	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long w_traj_ops, r_traj_ops, w_traj_fsize,r_traj_fsize;$/;"	variable	line:1589
+r_traj_ops	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long w_traj_ops, r_traj_ops, w_traj_fsize,r_traj_fsize;$/;"	variable	line:1589
+w_traj_fsize	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long w_traj_ops, r_traj_ops, w_traj_fsize,r_traj_fsize;$/;"	variable	line:1589
+r_traj_fsize	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long w_traj_ops, r_traj_ops, w_traj_fsize,r_traj_fsize;$/;"	variable	line:1589
+r_traj_ops_completed	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long r_traj_ops_completed,r_traj_bytes_completed;$/;"	variable	line:1590
+r_traj_bytes_completed	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long r_traj_ops_completed,r_traj_bytes_completed;$/;"	variable	line:1590
+w_traj_ops_completed	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long w_traj_ops_completed,w_traj_bytes_completed;$/;"	variable	line:1591
+w_traj_bytes_completed	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long w_traj_ops_completed,w_traj_bytes_completed;$/;"	variable	line:1591
+w_traj_items	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int w_traj_items, r_traj_items;$/;"	variable	line:1592
+r_traj_items	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int w_traj_items, r_traj_items;$/;"	variable	line:1592
+fflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char fflag, Uflag,uflag,lflag,include_tflag; $/;"	variable	line:1593
+Uflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char fflag, Uflag,uflag,lflag,include_tflag; $/;"	variable	line:1593
+uflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char fflag, Uflag,uflag,lflag,include_tflag; $/;"	variable	line:1593
+lflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char fflag, Uflag,uflag,lflag,include_tflag; $/;"	variable	line:1593
+include_tflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char fflag, Uflag,uflag,lflag,include_tflag; $/;"	variable	line:1593
+runtimes	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^struct runtime runtimes [MAX_X] [MAX_Y];	\/* in parallel with report_array[][] *\/$/;"	variable	line:1594	typeref:struct:runtime
+include_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long include_test[50];$/;"	variable	line:1595
+include_mask	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long include_mask;$/;"	variable	line:1596
+RWONLYflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char RWONLYflag, NOCROSSflag;		\/*auto mode 2 - kcollins 8-21-96*\/$/;"	variable	line:1597
+NOCROSSflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char RWONLYflag, NOCROSSflag;		\/*auto mode 2 - kcollins 8-21-96*\/$/;"	variable	line:1597
+mfflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char mfflag,F_flag;$/;"	variable	line:1598
+F_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char mfflag,F_flag;$/;"	variable	line:1598
+status	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long status, x, y, childids[MAXSTREAMS+1], myid, num_child;$/;"	variable	line:1599
+x	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long status, x, y, childids[MAXSTREAMS+1], myid, num_child;$/;"	variable	line:1599
+y	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long status, x, y, childids[MAXSTREAMS+1], myid, num_child;$/;"	variable	line:1599
+childids	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long status, x, y, childids[MAXSTREAMS+1], myid, num_child;$/;"	variable	line:1599
+myid	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long status, x, y, childids[MAXSTREAMS+1], myid, num_child;$/;"	variable	line:1599
+num_child	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long status, x, y, childids[MAXSTREAMS+1], myid, num_child;$/;"	variable	line:1599
+pct_read	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int pct_read,speed_code;$/;"	variable	line:1600
+speed_code	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int pct_read,speed_code;$/;"	variable	line:1600
+p_childids	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^pthread_t p_childids[MAXSTREAMS+1];$/;"	variable	line:1602
+next64	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^off64_t next64;$/;"	variable	line:1604
+wol_opened	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char wol_opened, rol_opened;$/;"	variable	line:1605
+rol_opened	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char wol_opened, rol_opened;$/;"	variable	line:1605
+wqfd	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^FILE *wqfd,*rwqfd,*rqfd,*rrqfd;$/;"	variable	line:1606
+rwqfd	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^FILE *wqfd,*rwqfd,*rqfd,*rrqfd;$/;"	variable	line:1606
+rqfd	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^FILE *wqfd,*rwqfd,*rqfd,*rrqfd;$/;"	variable	line:1606
+rrqfd	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^FILE *wqfd,*rwqfd,*rqfd,*rrqfd;$/;"	variable	line:1606
+ret	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long ret;$/;"	variable	line:1612
+ret	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^short ret;$/;"	variable	line:1614
+size_entry	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^struct size_entry {$/;"	struct	line:1616	file:
+next	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	struct size_entry *next;$/;"	member	line:1617	struct:size_entry	typeref:struct:size_entry::size_entry	file:
+size	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	off64_t size;$/;"	member	line:1618	struct:size_entry	file:
+size_list	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^struct size_entry *size_list=0;$/;"	variable	line:1620	typeref:struct:size_entry
+rec_size_list	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^struct size_entry *rec_size_list=0;$/;"	variable	line:1621	typeref:struct:size_entry
+maximum_file_size	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^off64_t maximum_file_size;$/;"	variable	line:1622
+minimum_file_size	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^off64_t minimum_file_size;$/;"	variable	line:1623
+burst_size_kb_64	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^off64_t burst_size_kb_64 = -1;             \/* the size of the burst (in KBytes) *\/$/;"	variable	line:1625
+burst_sleep_duration_msec	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long burst_sleep_duration_msec = -1;  \/* the sleep duration between burst *\/$/;"	variable	line:1626
+written_this_burst	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long written_this_burst = 0;          \/* How much data was writen so far in this burst*\/$/;"	variable	line:1627
+barrier_attr	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^pthread_barrierattr_t barrier_attr;$/;"	variable	line:1629
+barrier	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^pthread_barrier_t *barrier;$/;"	variable	line:1630
+burst_size_per_child	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^off64_t burst_size_per_child = 0;$/;"	variable	line:1631
+burst_written_so_far	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long burst_written_so_far[MAXSTREAMS] = {0};  \/* How much data was written so far in this burst per stream (thread\/process)*\/$/;"	variable	line:1632
+bif_filename	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char bif_filename [MAXNAMESIZE];           \/* name of biff file      *\/$/;"	variable	line:1635
+filename	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char filename [MAXNAMESIZE];               \/* name of temporary file *\/$/;"	variable	line:1636
+mountname	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char mountname [MAXNAMESIZE];              \/* name of device         *\/$/;"	variable	line:1637
+dummyfile	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char dummyfile [MAXSTREAMS][MAXNAMESIZE];  \/* name of dummy file     *\/$/;"	variable	line:1638
+dummyfile1	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char dummyfile1 [MAXNAMESIZE];             \/* name of dummy file     *\/$/;"	variable	line:1639
+filearray	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char *filearray[MAXSTREAMS];		   \/* array of file names    *\/$/;"	variable	line:1640
+blkidx	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int blkidx[MAXSTREAMS];            \/* array of file names    *\/$/;"	variable	line:1641
+tfile	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char tfile[MAXNAMESIZE];$/;"	variable	line:1642
+buffer	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char *buffer,*buffer1, *mbuffer,*mainbuffer;$/;"	variable	line:1643
+buffer1	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char *buffer,*buffer1, *mbuffer,*mainbuffer;$/;"	variable	line:1643
+mbuffer	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char *buffer,*buffer1, *mbuffer,*mainbuffer;$/;"	variable	line:1643
+mainbuffer	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char *buffer,*buffer1, *mbuffer,*mainbuffer;$/;"	variable	line:1643
+pi	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^FILE *pi,*r_traj_fd,*w_traj_fd;$/;"	variable	line:1644
+r_traj_fd	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^FILE *pi,*r_traj_fd,*w_traj_fd;$/;"	variable	line:1644
+w_traj_fd	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^FILE *pi,*r_traj_fd,*w_traj_fd;$/;"	variable	line:1644
+pbuffer	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^VOLATILE char *pbuffer;$/;"	variable	line:1645
+default_filename	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char *default_filename="iozone.tmp"; \/*default name of temporary file*\/$/;"	variable	line:1646
+stoptime	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^VOLATILE char stoptime;$/;"	variable	line:1647
+Cflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char Cflag;$/;"	variable	line:1648
+use_thread	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char use_thread = 0;$/;"	variable	line:1649
+debug1	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long debug1=0;		$/;"	variable	line:1650
+debug	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long debug=0;$/;"	variable	line:1651
+cache_size	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^unsigned long cache_size=(long long)MY_CACHE_SIZE;$/;"	variable	line:1652
+cache_line_size	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^unsigned long cache_line_size=(long long)MY_CACHE_LINE_SIZE;$/;"	variable	line:1653
+pstatus	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long *pstatus;$/;"	variable	line:1654
+min_file_size	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^off64_t min_file_size = KILOBYTES_START;$/;"	variable	line:1655
+max_file_size	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^off64_t max_file_size = KILOBYTES_END;$/;"	variable	line:1656
+min_rec_size	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long min_rec_size = RECLEN_START;$/;"	variable	line:1657
+max_rec_size	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long max_rec_size = RECLEN_END;$/;"	variable	line:1658
+orig_min_rec_size	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long orig_min_rec_size = RECLEN_START;$/;"	variable	line:1659
+orig_max_rec_size	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long orig_max_rec_size = RECLEN_END;$/;"	variable	line:1660
+xover	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long xover = CROSSOVER;$/;"	variable	line:1661
+throughput_tests	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char *throughput_tests[] = {"Initial write","Rewrite","Read","Re-read",$/;"	variable	line:1662
+command_line	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char command_line[1024] = "\\0";$/;"	variable	line:1664
+sc_clk_tck	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^double sc_clk_tck;$/;"	variable	line:1666
+argcsave	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int argcsave;$/;"	variable	line:1669
+argvsave	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char **argvsave;$/;"	variable	line:1670
+splash	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char splash[80][80];$/;"	variable	line:1671
+splash_line	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int splash_line;$/;"	variable	line:1672
+client_filename	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char client_filename[256];$/;"	variable	line:1673
+remote_shell	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char remote_shell[256];$/;"	variable	line:1674
+client_error	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int client_error;$/;"	variable	line:1675
+pit_hostname	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char pit_hostname[40];$/;"	variable	line:1677
+pit_service	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char pit_service[8];$/;"	variable	line:1678
+junk	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int junk;$/;"	variable	line:1679
+HOST_LIST_PORT	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define HOST_LIST_PORT /;"	macro	line:1684	file:
+HOST_ESEND_PORT	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define HOST_ESEND_PORT /;"	macro	line:1685	file:
+HOST_ASEND_PORT	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define HOST_ASEND_PORT /;"	macro	line:1686	file:
+controlling_host_port	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int controlling_host_port = HOST_LIST_PORT;$/;"	variable	line:1687
+CHILD_ESEND_PORT	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define CHILD_ESEND_PORT /;"	macro	line:1692	file:
+CHILD_LIST_PORT	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define CHILD_LIST_PORT /;"	macro	line:1693	file:
+CHILD_ALIST_PORT	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define CHILD_ALIST_PORT /;"	macro	line:1696	file:
+SP_CHILD_LISTEN_PORT	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define SP_CHILD_LISTEN_PORT /;"	macro	line:1699	file:
+SP_CHILD_ESEND_PORT	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define SP_CHILD_ESEND_PORT /;"	macro	line:1700	file:
+SP_MASTER_LISTEN_PORT	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define SP_MASTER_LISTEN_PORT /;"	macro	line:1701	file:
+SP_MASTER_ESEND_PORT	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define SP_MASTER_ESEND_PORT /;"	macro	line:1702	file:
+SP_MASTER_RESULTS_PORT	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define SP_MASTER_RESULTS_PORT /;"	macro	line:1703	file:
+THREAD_WRITE_TEST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define THREAD_WRITE_TEST /;"	macro	line:1706	file:
+THREAD_REWRITE_TEST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define THREAD_REWRITE_TEST /;"	macro	line:1707	file:
+THREAD_READ_TEST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define THREAD_READ_TEST /;"	macro	line:1708	file:
+THREAD_REREAD_TEST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define THREAD_REREAD_TEST /;"	macro	line:1709	file:
+THREAD_STRIDE_TEST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define THREAD_STRIDE_TEST /;"	macro	line:1710	file:
+THREAD_RANDOM_READ_TEST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define THREAD_RANDOM_READ_TEST /;"	macro	line:1711	file:
+THREAD_RANDOM_WRITE_TEST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define THREAD_RANDOM_WRITE_TEST /;"	macro	line:1712	file:
+THREAD_REVERSE_READ_TEST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define THREAD_REVERSE_READ_TEST /;"	macro	line:1713	file:
+THREAD_RANDOM_MIX_TEST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define THREAD_RANDOM_MIX_TEST /;"	macro	line:1714	file:
+THREAD_PWRITE_TEST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define THREAD_PWRITE_TEST /;"	macro	line:1715	file:
+THREAD_PREAD_TEST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define THREAD_PREAD_TEST /;"	macro	line:1716	file:
+THREAD_FWRITE_TEST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define THREAD_FWRITE_TEST /;"	macro	line:1717	file:
+THREAD_FREAD_TEST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define THREAD_FREAD_TEST /;"	macro	line:1718	file:
+THREAD_CLEANUP_TEST	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define THREAD_CLEANUP_TEST /;"	macro	line:1719	file:
+C_STATE_ZERO	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define C_STATE_ZERO /;"	macro	line:1726	file:
+C_STATE_WAIT_WHO	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define C_STATE_WAIT_WHO /;"	macro	line:1727	file:
+C_STATE_WAIT_BARRIER	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define C_STATE_WAIT_BARRIER /;"	macro	line:1728	file:
+c_port	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int c_port,a_port; \/* port number *\/$/;"	variable	line:1731
+a_port	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int c_port,a_port; \/* port number *\/$/;"	variable	line:1731
+child_port	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int child_port; \/* Virtualized due to fork *\/$/;"	variable	line:1732
+child_async_port	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int child_async_port; \/* Virtualized due to fork *\/$/;"	variable	line:1733
+client_listen_pid	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int client_listen_pid; \/* Virtualized due to fork *\/$/;"	variable	line:1734
+master_join_count	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int master_join_count; \/* How many children have joined *\/$/;"	variable	line:1735
+l_sock	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int l_sock,l_async_sock; \/* Sockets for listening *\/$/;"	variable	line:1736
+l_async_sock	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int l_sock,l_async_sock; \/* Sockets for listening *\/$/;"	variable	line:1736
+master_rcv_buf	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char master_rcv_buf[4096]; \/* Master's receive buffer *\/$/;"	variable	line:1737
+master_listen_pid	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int master_listen_pid; \/* Pid of the master's async listener proc *\/$/;"	variable	line:1738
+master_send_buf	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char master_send_buf[4096]; \/* Master's send buffer *\/$/;"	variable	line:1739
+child_rcv_buf	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char child_rcv_buf[4096]; \/* Child's receive buffer *\/$/;"	variable	line:1740
+child_async_rcv_buf	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char child_async_rcv_buf[4096]; \/* Child's async recieve buffer *\/$/;"	variable	line:1741
+child_send_buf	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char child_send_buf[4096]; \/* Child's send buffer *\/$/;"	variable	line:1742
+child_send_socket	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int child_send_socket; \/* Child's send socket *\/$/;"	variable	line:1743
+child_listen_socket	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int child_listen_socket; \/* Child's listener socket *\/$/;"	variable	line:1744
+child_listen_socket_async	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int child_listen_socket_async; \/* Child's async listener socket *\/$/;"	variable	line:1745
+master_send_socket	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int master_send_socket; \/* Needs to be an array. One for each child*\/$/;"	variable	line:1746
+master_send_sockets	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int master_send_sockets[MAXSTREAMS]; \/* Needs to be an array. One for each child*\/$/;"	variable	line:1747
+master_send_async_sockets	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int master_send_async_sockets[MAXSTREAMS]; \/* Needs to be an array. One for each child*\/$/;"	variable	line:1748
+master_listen_port	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int master_listen_port; \/* Master's listener port number *\/$/;"	variable	line:1749
+master_listen_socket	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int master_listen_socket; \/* Master's listener socket *\/$/;"	variable	line:1750
+clients_found	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int clients_found; \/* Number of clients found in the client file *\/$/;"	variable	line:1751
+newstdin	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^FILE *newstdin, *newstdout, *newstderr; \/* used for debug in cluster mode.*\/$/;"	variable	line:1752
+newstdout	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^FILE *newstdin, *newstdout, *newstderr; \/* used for debug in cluster mode.*\/$/;"	variable	line:1752
+newstderr	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^FILE *newstdin, *newstdout, *newstderr; \/* used for debug in cluster mode.*\/$/;"	variable	line:1752
+toutput	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char toutput[20][20]; \/* Used to help format the output *\/$/;"	variable	line:1753
+toutputindex	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int toutputindex; \/* Index to the current output line *\/$/;"	variable	line:1754
+cdebug	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int cdebug = 0; \/* Use to turn on child\/client debugging in cluster mode. *\/$/;"	variable	line:1755
+mdebug	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int mdebug = 0; \/* Use to turn on master debug in cluster mode *\/$/;"	variable	line:1756
+aggflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int aggflag; \/* Used to indicate constant aggregate data set size *\/$/;"	variable	line:1757
+child_sync_sock	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^struct sockaddr_in child_sync_sock, child_async_sock;$/;"	variable	line:1758	typeref:struct:sockaddr_in
+child_async_sock	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^struct sockaddr_in child_sync_sock, child_async_sock;$/;"	variable	line:1758	typeref:struct:
+proto_version	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int proto_version = 25;$/;"	variable	line:1763
+controlling_host_name	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char controlling_host_name[100];$/;"	variable	line:1770
+child_ident	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^struct child_ident {$/;"	struct	line:1771	file:
+child_name	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char child_name[100];$/;"	member	line:1772	struct:child_ident	file:
+workdir	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char workdir[200];$/;"	member	line:1773	struct:child_ident	file:
+execute_path	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char execute_path[200];$/;"	member	line:1774	struct:child_ident	file:
+file_name	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	char file_name[200];$/;"	member	line:1775	struct:child_ident	file:
+state	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int state;$/;"	member	line:1776	struct:child_ident	file:
+child_number	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int child_number;$/;"	member	line:1777	struct:child_ident	file:
+child_port	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int child_port;$/;"	member	line:1778	struct:child_ident	file:
+child_async_port	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int child_async_port;$/;"	member	line:1779	struct:child_ident	file:
+master_socket_num	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int master_socket_num;$/;"	member	line:1780	struct:child_ident	file:
+master_async_socket_num	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int master_async_socket_num;$/;"	member	line:1781	struct:child_ident	file:
+child_idents	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^}child_idents[MAXSTREAMS];$/;"	variable	line:1782	typeref:struct:child_ident
+Kplus_readers	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int Kplus_readers;$/;"	variable	line:1783
+write_traj_filename	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char write_traj_filename [MAXNAMESIZE];     \/* name of write telemetry file *\/$/;"	variable	line:1784
+read_traj_filename	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char read_traj_filename [MAXNAMESIZE];    \/* name of read telemetry file  *\/$/;"	variable	line:1785
+oflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char oflag,jflag,k_flag,h_flag,mflag,pflag,unbuffered,Kplus_flag;$/;"	variable	line:1786
+jflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char oflag,jflag,k_flag,h_flag,mflag,pflag,unbuffered,Kplus_flag;$/;"	variable	line:1786
+k_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char oflag,jflag,k_flag,h_flag,mflag,pflag,unbuffered,Kplus_flag;$/;"	variable	line:1786
+h_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char oflag,jflag,k_flag,h_flag,mflag,pflag,unbuffered,Kplus_flag;$/;"	variable	line:1786
+mflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char oflag,jflag,k_flag,h_flag,mflag,pflag,unbuffered,Kplus_flag;$/;"	variable	line:1786
+pflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char oflag,jflag,k_flag,h_flag,mflag,pflag,unbuffered,Kplus_flag;$/;"	variable	line:1786
+unbuffered	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char oflag,jflag,k_flag,h_flag,mflag,pflag,unbuffered,Kplus_flag;$/;"	variable	line:1786
+Kplus_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char oflag,jflag,k_flag,h_flag,mflag,pflag,unbuffered,Kplus_flag;$/;"	variable	line:1786
+noretest	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char noretest;$/;"	variable	line:1787
+notruncate	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char notruncate;   \/* turn off truncation of files *\/$/;"	variable	line:1788
+async_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char async_flag,stride_flag,mmapflag,mmapasflag,mmapssflag,mmapnsflag,mmap_mix;$/;"	variable	line:1789
+stride_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char async_flag,stride_flag,mmapflag,mmapasflag,mmapssflag,mmapnsflag,mmap_mix;$/;"	variable	line:1789
+mmapflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char async_flag,stride_flag,mmapflag,mmapasflag,mmapssflag,mmapnsflag,mmap_mix;$/;"	variable	line:1789
+mmapasflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char async_flag,stride_flag,mmapflag,mmapasflag,mmapssflag,mmapnsflag,mmap_mix;$/;"	variable	line:1789
+mmapssflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char async_flag,stride_flag,mmapflag,mmapasflag,mmapssflag,mmapnsflag,mmap_mix;$/;"	variable	line:1789
+mmapnsflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char async_flag,stride_flag,mmapflag,mmapasflag,mmapssflag,mmapnsflag,mmap_mix;$/;"	variable	line:1789
+mmap_mix	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char async_flag,stride_flag,mmapflag,mmapasflag,mmapssflag,mmapnsflag,mmap_mix;$/;"	variable	line:1789
+verify	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char verify = 1;$/;"	variable	line:1790
+restf	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int restf;$/;"	variable	line:1791
+sverify	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char sverify = 1;$/;"	variable	line:1792
+odsync	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char odsync = 0;$/;"	variable	line:1793
+inc_think	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char inc_think, Q_flag,OPS_flag;$/;"	variable	line:1794
+Q_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char inc_think, Q_flag,OPS_flag;$/;"	variable	line:1794
+OPS_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char inc_think, Q_flag,OPS_flag;$/;"	variable	line:1794
+L_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char L_flag=0;$/;"	variable	line:1795
+no_copy_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char no_copy_flag,include_close,include_flush;$/;"	variable	line:1796
+include_close	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char no_copy_flag,include_close,include_flush;$/;"	variable	line:1796
+include_flush	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char no_copy_flag,include_close,include_flush;$/;"	variable	line:1796
+disrupt_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char disrupt_flag,compute_flag,xflag,Z_flag, X_flag;$/;"	variable	line:1797
+compute_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char disrupt_flag,compute_flag,xflag,Z_flag, X_flag;$/;"	variable	line:1797
+xflag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char disrupt_flag,compute_flag,xflag,Z_flag, X_flag;$/;"	variable	line:1797
+Z_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char disrupt_flag,compute_flag,xflag,Z_flag, X_flag;$/;"	variable	line:1797
+X_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char disrupt_flag,compute_flag,xflag,Z_flag, X_flag;$/;"	variable	line:1797
+no_unlink	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int no_unlink = 0;$/;"	variable	line:1798
+no_write	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int no_write = 0;$/;"	variable	line:1799
+r_traj_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int r_traj_flag,w_traj_flag;$/;"	variable	line:1800
+w_traj_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int r_traj_flag,w_traj_flag;$/;"	variable	line:1800
+mygen	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int mygen;$/;"	variable	line:1801
+MS_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char MS_flag;$/;"	variable	line:1802
+advise_op	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int advise_op,advise_flag;$/;"	variable	line:1803
+advise_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int advise_op,advise_flag;$/;"	variable	line:1803
+direct_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int direct_flag;$/;"	variable	line:1804
+current_client_number	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int current_client_number;$/;"	variable	line:1805
+chid	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long chid;$/;"	variable	line:1806
+file_lock	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int file_lock;$/;"	variable	line:1807
+pattern	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^unsigned int pattern;$/;"	variable	line:1808
+stride	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long stride = STRIDE;$/;"	variable	line:1809
+delay	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long delay,purge,fetchon;$/;"	variable	line:1810
+purge	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long delay,purge,fetchon;$/;"	variable	line:1810
+fetchon	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long delay,purge,fetchon;$/;"	variable	line:1810
+numrecs64	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^off64_t  numrecs64 = (off64_t)NUMRECS;$/;"	variable	line:1811
+reclen	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long reclen = RECLEN;$/;"	variable	line:1812
+delay_start	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long delay_start,depth;$/;"	variable	line:1813
+depth	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long delay_start,depth;$/;"	variable	line:1813
+stop_flag	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^VOLATILE char *stop_flag;		\/* Used to stop all children *\/$/;"	variable	line:1814
+compute_time	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^float compute_time;$/;"	variable	line:1815
+multiplier	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int multiplier = MULTIPLIER;$/;"	variable	line:1816
+rest_val	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long rest_val;$/;"	variable	line:1817
+hand	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	HANDLE hand;$/;"	variable	line:1819
+negatives	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int negatives, positives;$/;"	variable	line:1844
+positives	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int negatives, positives;$/;"	variable	line:1844
+main	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^main(argc,argv) $/;"	function	line:1847
+record_command_line	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^record_command_line(int argc, char **argv)$/;"	function	line:3541	signature:(int argc, char **argv)
+begin	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^begin(off64_t kilos64,long long reclength)$/;"	function	line:3575	signature:(off64_t kilos64,long long reclength)
+show_help	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^void show_help(void)$/;"	function	line:3715	signature:(void)
+signal_handler	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^my_sig_t signal_handler(void)$/;"	function	line:3734	signature:(void)
+auto_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^auto_test(void)$/;"	function	line:3809	signature:(void)
+throughput_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^throughput_test(void)$/;"	function	line:3934	signature:(void)
+time_so_far	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^time_so_far(void)$/;"	function	line:7273	file:	signature:(void)
+fetchit	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^void fetchit(char *buffer,long long length)$/;"	function	line:7339	signature:(char *buffer,long long length)
+verify_buffer	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^verify_buffer(volatile char *buffer,long long length, off64_t recnum, long long recsize,unsigned long long patt,$/;"	function	line:7372	signature:(volatile char *buffer,long long length, off64_t recnum, long long recsize,unsigned long long patt, char sverify)
+fill_buffer	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^fill_buffer(char *buffer,long long length,long long pattern,char sverify,long long recnum)$/;"	function	line:7548	signature:(char *buffer,long long length,long long pattern,char sverify,long long recnum)
+purgeit	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^purgeit(char *buffer,long long reclen)$/;"	function	line:7636	signature:(char *buffer,long long reclen)
+prepage	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^prepage(char *buffer,long long reclen)$/;"	function	line:7669	signature:(char *buffer,long long reclen)
+write_perf_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^void write_perf_test(off64_t kilo64,long long reclen ,long long *data1,long long *data2)$/;"	function	line:7692	signature:(off64_t kilo64,long long reclen ,long long *data1,long long *data2)
+fwrite_perf_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^void fwrite_perf_test(off64_t kilo64,long long reclen ,long long *data1,long long *data2)$/;"	function	line:8322	signature:(off64_t kilo64,long long reclen ,long long *data1,long long *data2)
+fread_perf_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^void fread_perf_test(off64_t kilo64,long long reclen,long long *data1,long long *data2)$/;"	function	line:8552	signature:(off64_t kilo64,long long reclen,long long *data1,long long *data2)
+read_perf_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^read_perf_test(off64_t kilo64,long long reclen,long long *data1,long long *data2)$/;"	function	line:8753	signature:(off64_t kilo64,long long reclen,long long *data1,long long *data2)
+random_perf_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^void random_perf_test(off64_t kilo64,long long reclen,long long *data1,long long *data2)$/;"	function	line:9266	signature:(off64_t kilo64,long long reclen,long long *data1,long long *data2)
+reverse_perf_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^void reverse_perf_test(off64_t kilo64,long long reclen,long long *data1,long long *data2)$/;"	function	line:9806	signature:(off64_t kilo64,long long reclen,long long *data1,long long *data2)
+rewriterec_perf_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^void rewriterec_perf_test(off64_t kilo64 ,long long reclen,long long *data1,long long *data2)$/;"	function	line:10102	signature:(off64_t kilo64 ,long long reclen,long long *data1,long long *data2)
+read_stride_perf_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^void read_stride_perf_test(off64_t kilos64,long long reclen,long long *data1,long long *data2)$/;"	function	line:10427	signature:(off64_t kilos64,long long reclen,long long *data1,long long *data2)
+pwrite_perf_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^void pwrite_perf_test(off64_t kilos64,long long reclen,long long *data1,long long *data2)$/;"	function	line:10751	signature:(off64_t kilos64,long long reclen,long long *data1,long long *data2)
+pread_perf_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^void pread_perf_test(off64_t kilos64,long long reclen,long long *data1,long long *data2)$/;"	function	line:11033	signature:(off64_t kilos64,long long reclen,long long *data1,long long *data2)
+pwritev_perf_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^void pwritev_perf_test(off64_t kilos64,long long reclen,long long *data1,long long *data2)$/;"	function	line:11283	signature:(off64_t kilos64,long long reclen,long long *data1,long long *data2)
+create_list	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^void create_list(long long *list_off, long long reclen, off64_t numrecs64)$/;"	function	line:11556	signature:(long long *list_off, long long reclen, off64_t numrecs64)
+preadv_perf_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^void preadv_perf_test(off64_t kilos64,long long reclen,long long *data1,long long *data2)$/;"	function	line:11627	signature:(off64_t kilos64,long long reclen,long long *data1,long long *data2)
+print_header	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^void print_header(void)$/;"	function	line:11864	signature:(void)
+store_value	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^store_value(off64_t value)$/;"	function	line:12031	signature:(off64_t value)
+store_times	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^store_times(double walltime, double cputime)$/;"	function	line:12064	signature:(double walltime, double cputime)
+dump_report	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^void dump_report(long long who)$/;"	function	line:12080	signature:(long long who)
+dump_excel	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^void dump_excel(void)$/;"	function	line:12166	signature:(void)
+dump_times	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^void dump_times(long long who)$/;"	function	line:12317	signature:(long long who)
+dump_cputimes	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^void dump_cputimes(void)$/;"	function	line:12393	signature:(void)
+alloc_mem	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^alloc_mem(long long size, int shared_flag)$/;"	function	line:12534	signature:(long long size, int shared_flag)
+Poll	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^void Poll(long long time1)$/;"	function	line:12678	signature:(long long time1)
+l_max	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long l_max(long long one,long long two)$/;"	function	line:12694	signature:(long long one,long long two)
+Kill	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^void Kill(long long pid,long long sig)$/;"	function	line:12710	signature:(long long pid,long long sig)
+l_min	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long l_min(long long num1,long long num2)$/;"	function	line:12727	signature:(long long num1,long long num2)
+multi_throughput_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^multi_throughput_test(long long mint,long long maxt)$/;"	function	line:12745	signature:(long long mint,long long maxt)
+purge_buffer_cache	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^purge_buffer_cache()$/;"	function	line:12789
+thread_write_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^thread_write_test(int x)$/;"	function	line:12827	signature:(int x)
+thread_pwrite_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^thread_pwrite_test(int x)$/;"	function	line:13542	signature:(int x)
+thread_rwrite_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^thread_rwrite_test(int x)$/;"	function	line:14180	signature:(int x)
+thread_read_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^thread_read_test(int x)$/;"	function	line:14782	signature:(int x)
+thread_pread_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^thread_pread_test(int x)$/;"	function	line:15370	signature:(int x)
+thread_rread_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^thread_rread_test(int x)$/;"	function	line:15896	signature:(int x)
+thread_reverse_read_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^thread_reverse_read_test(int x)$/;"	function	line:16478	signature:(int x)
+thread_stride_read_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^thread_stride_read_test(int x)$/;"	function	line:17012	signature:(int x)
+thread_mix_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^thread_mix_test(int x)$/;"	function	line:17560	signature:(int x)
+thread_ranread_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^thread_ranread_test(int x)$/;"	function	line:17627	signature:(int x)
+thread_ranwrite_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^thread_ranwrite_test(int x)$/;"	function	line:18251	signature:(int x)
+thread_cleanup_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^thread_cleanup_test(int x)$/;"	function	line:18951	signature:(int x)
+mythread_create	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long mythread_create( void *(*func)(void *),int x)$/;"	function	line:19043	signature:( void *(*func)(void *),int x)
+mythread_create	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^mythread_create( void *(*func)(void *),int x)$/;"	function	line:19093	signature:( void *(*func)(void *),int x)
+thread_exit	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^thread_exit(void)$/;"	function	line:19112	signature:(void)
+thread_exit	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^thread_exit(void)$/;"	function	line:19126	signature:(void)
+mythread_self	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^mythread_self(void)$/;"	function	line:19143	signature:(void)
+mythread_self	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^mythread_self(void)$/;"	function	line:19156	signature:(void)
+thread_join	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^thread_join( long long tid, void *status) $/;"	function	line:19173	signature:( long long tid, void *status)
+thread_join	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^thread_join( long long tid, void *status) $/;"	function	line:19194	signature:( long long tid, void *status)
+dump_throughput_cpu	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^dump_throughput_cpu(void)$/;"	function	line:19213	signature:(void)
+dump_throughput	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^dump_throughput(void)$/;"	function	line:19282	signature:(void)
+store_dvalue	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^store_dvalue(double value)$/;"	function	line:19368	signature:(double value)
+initfile	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^initfile(int fd, off64_t filebytes,int flag,int prot)$/;"	function	line:19398	signature:(int fd, off64_t filebytes,int flag,int prot)
+mmap_end	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^mmap_end( char *buffer, long long size)$/;"	function	line:19571	signature:( char *buffer, long long size)
+fill_area	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^fill_area(long long *src_buffer, long long *dest_buffer, long long length)$/;"	function	line:19603	signature:(long long *src_buffer, long long *dest_buffer, long long length)
+async_read	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^async_read()$/;"	function	line:19617
+async_write_no_copy	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^async_write_no_copy()$/;"	function	line:19623
+async_write	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^async_write()$/;"	function	line:19629
+async_init	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^async_init()$/;"	function	line:19635
+async_read_no_copy	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^async_read_no_copy()$/;"	function	line:19641
+async_release	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^async_release()$/;"	function	line:19647
+my_nap	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^my_nap( int ntime )$/;"	function	line:19659	signature:( int ntime )
+nap_once	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int nap_once;$/;"	variable	line:19677
+nap_res	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^double nap_res;$/;"	variable	line:19678
+my_unap	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^my_unap( unsigned long long microsecs )$/;"	function	line:19681	signature:( unsigned long long microsecs )
+get_resolution	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^get_resolution(void)$/;"	function	line:19712	signature:(void)
+get_rusage_resolution	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^get_rusage_resolution(void)$/;"	function	line:19755	signature:(void)
+time_so_far1	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^time_so_far1(void)$/;"	function	line:19788	file:	signature:(void)
+clk_tck	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^clk_tck(void)		\/* Get the clocks per tick for times *\/$/;"	function	line:19853	file:	signature:(void)
+utime_so_far	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^utime_so_far(void)	 \/* Return user time in ticks as double *\/$/;"	function	line:19867	file:	signature:(void)
+stime_so_far	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^stime_so_far(void)  	\/* Return system time in ticks as double *\/$/;"	function	line:19884	file:	signature:(void)
+cputime_so_far	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^cputime_so_far(void)  	\/* Return CPU time in seconds as double *\/$/;"	function	line:19901	file:	signature:(void)
+cpu_util	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^cpu_util(double cputime, double walltime)$/;"	function	line:19928	file:	signature:(double cputime, double walltime)
+mylockf	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^mylockf(int fd, int op, int rdwr)$/;"	function	line:19969	signature:(int fd, int op, int rdwr)
+mylockr	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^mylockr(int fd, int op, int rdwr, off64_t offset, off64_t size)$/;"	function	line:20005	signature:(int fd, int op, int rdwr, off64_t offset, off64_t size)
+do_compute	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^do_compute(float comp_delay)$/;"	function	line:20055	signature:(float comp_delay)
+disrupt	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^disrupt(int fd)$/;"	function	line:20082	signature:(int fd)
+disruptw	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^disruptw(HANDLE hand)$/;"	function	line:20131	signature:(HANDLE hand)
+get_traj	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^get_traj(FILE *traj_fd, long long *traj_size, float *delay, long which)$/;"	function	line:20176	signature:(FILE *traj_fd, long long *traj_size, float *delay, long which)
+open_r_traj	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^open_r_traj(void)$/;"	function	line:20281	signature:(void)
+open_w_traj	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^open_w_traj(void)$/;"	function	line:20303	signature:(void)
+r_traj_size	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^r_traj_size(void)$/;"	function	line:20328	signature:(void)
+w_traj_size	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^w_traj_size(void)$/;"	function	line:20427	signature:(void)
+traj_vers	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^traj_vers(void)$/;"	function	line:20522	signature:(void)
+init_file_sizes	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^init_file_sizes( off64_t min_f_size,  off64_t max_f_size)$/;"	function	line:20606	signature:( off64_t min_f_size, off64_t max_f_size)
+add_file_size	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^add_file_size(off64_t size)$/;"	function	line:20638	signature:(off64_t size)
+get_next_file_size	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^get_next_file_size(off64_t size)$/;"	function	line:20676	signature:(off64_t size)
+init_record_sizes	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^init_record_sizes( off64_t min_r_size,  off64_t max_r_size)$/;"	function	line:20705	signature:( off64_t min_r_size, off64_t max_r_size)
+del_record_sizes	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^del_record_sizes(void)$/;"	function	line:20734	signature:(void)
+add_record_size	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^add_record_size(off64_t size)$/;"	function	line:20761	signature:(off64_t size)
+get_next_record_size	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^get_next_record_size(off64_t size)$/;"	function	line:20799	signature:(off64_t size)
+start_master_listen	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^start_master_listen(void)$/;"	function	line:20883	signature:(void)
+listener_sync_sock	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^struct sockaddr_in listener_sync_sock;$/;"	variable	line:20952	typeref:struct:sockaddr_in
+master_listen	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^master_listen(int sock, int size_of_message)$/;"	function	line:20956	signature:(int sock, int size_of_message)
+child_send	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^child_send(char *controlling_host_name, struct master_command *send_buffer, int send_size)$/;"	function	line:21016	signature:(char *controlling_host_name, struct master_command *send_buffer, int send_size)
+master_send	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^master_send(int child_socket_val, char *host_name, struct client_command *send_buffer, int send_size)$/;"	function	line:21165	signature:(int child_socket_val, char *host_name, struct client_command *send_buffer, int send_size)
+stop_child_listen	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^stop_child_listen(int child_socket_val)$/;"	function	line:21312	signature:(int child_socket_val)
+O_stop_child_send	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^O_stop_child_send(int child_socket_val)$/;"	function	line:21327	signature:(int child_socket_val)
+stop_master_listen	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^stop_master_listen(int master_socket_val)$/;"	function	line:21342	signature:(int master_socket_val)
+stop_master_send	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^stop_master_send(int child_socket_val)$/;"	function	line:21363	signature:(int child_socket_val)
+start_child_listen	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^start_child_listen(int size_of_message)$/;"	function	line:21378	signature:(int size_of_message)
+child_attach	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^child_attach(int s, int flag)$/;"	function	line:21450	signature:(int s, int flag)
+child_listen	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^child_listen(int sock, int size_of_message)$/;"	function	line:21511	signature:(int sock, int size_of_message)
+start_child_listen_async	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^start_child_listen_async(int size_of_message)$/;"	function	line:21562	signature:(int size_of_message)
+child_listen_async	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^child_listen_async(int sock, int size_of_message)$/;"	function	line:21633	signature:(int sock, int size_of_message)
+start_master_send	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^start_master_send(char *child_host_name, int child_port, struct in_addr *my_s_addr)$/;"	function	line:21693	signature:(char *child_host_name, int child_port, struct in_addr *my_s_addr)
+start_master_send_async	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^start_master_send_async(char *child_host_name, int child_port, struct in_addr my_s_addr)$/;"	function	line:21807	signature:(char *child_host_name, int child_port, struct in_addr my_s_addr)
+start_child_proc	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^start_child_proc(int testnum,long long numrecs64, long long reclen)$/;"	function	line:21909	signature:(int testnum,long long numrecs64, long long reclen)
+pick_client	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^pick_client(int testnum,long long numrecs64, long long reclen)$/;"	function	line:21942	signature:(int testnum,long long numrecs64, long long reclen)
+become_client	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^become_client(void)$/;"	function	line:22188	signature:(void)
+tell_master_stats	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^tell_master_stats(int testnum , long long chid, double throughput, double actual, $/;"	function	line:22662	signature:(int testnum , long long chid, double throughput, double actual, float cpu_time, double wall_time, char stop_flag, long long child_flag)
+stop_master_listen_loop	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^stop_master_listen_loop(void)$/;"	function	line:22705	signature:(void)
+tell_master_ready	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^tell_master_ready(long long chid)$/;"	function	line:22723	signature:(long long chid)
+wait_for_master_go	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^wait_for_master_go(long long chid)$/;"	function	line:22752	signature:(long long chid)
+start_master_listen_loop	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^start_master_listen_loop(int num)$/;"	function	line:22791	signature:(int num)
+start_child_listen_loop	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^start_child_listen_loop(void)$/;"	function	line:22928	signature:(void)
+tell_children_begin	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^tell_children_begin(long long childnum)$/;"	function	line:23006	signature:(long long childnum)
+wait_dist_join	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^wait_dist_join(void)$/;"	function	line:23035	signature:(void)
+get_client_info	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^get_client_info(void)$/;"	function	line:23061	signature:(void)
+parse_client_line	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^parse_client_line(char *buffer,int line_num)$/;"	function	line:23108	signature:(char *buffer,int line_num)
+child_remove_files	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^child_remove_files(int i)$/;"	function	line:23148	signature:(int i)
+terminate_child_async	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^terminate_child_async(void)$/;"	function	line:23182	signature:(void)
+distribute_stop	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^distribute_stop(void)$/;"	function	line:23211	signature:(void)
+send_stop	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^send_stop(void)$/;"	function	line:23257	signature:(void)
+cleanup_children	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^cleanup_children(void)$/;"	function	line:23297	signature:(void)
+cleanup_comm	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^cleanup_comm(void)$/;"	function	line:23340	signature:(void)
+find_remote_shell	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^find_remote_shell(char *shell)$/;"	function	line:23356	signature:(char *shell)
+find_external_mon	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^find_external_mon(char * imon_start, char * imon_stop)$/;"	function	line:23379	signature:(char * imon_start, char * imon_stop)
+mix_perf_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^mix_perf_test(off64_t kilo64,long long reclen,long long *data1,long long *data2)$/;"	function	line:23414	signature:(off64_t kilo64,long long reclen,long long *data1,long long *data2)
+sp_dest	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char *sp_dest; \/* Name of destination for messages *\/$/;"	variable	line:23434
+sp_child_listen_port	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int sp_child_listen_port = SP_CHILD_LISTEN_PORT;$/;"	variable	line:23436
+sp_child_esend_port	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int sp_child_esend_port  = SP_CHILD_ESEND_PORT;$/;"	variable	line:23437
+sp_master_listen_port	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int sp_master_listen_port = SP_MASTER_LISTEN_PORT;$/;"	variable	line:23439
+sp_master_esend_port	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int sp_master_esend_port  = SP_MASTER_ESEND_PORT;$/;"	variable	line:23440
+sp_master_results_port	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int sp_master_results_port = SP_MASTER_RESULTS_PORT;$/;"	variable	line:23442
+sp_my_cs_addr	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^struct in_addr sp_my_cs_addr;$/;"	variable	line:23444	typeref:struct:in_addr
+sp_my_ms_addr	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^struct in_addr sp_my_ms_addr;$/;"	variable	line:23445	typeref:struct:in_addr
+sp_child_sync_sock	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^struct sockaddr_in sp_child_sync_sock, sp_child_async_sock;$/;"	variable	line:23446	typeref:struct:sockaddr_in
+sp_child_async_sock	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^struct sockaddr_in sp_child_sync_sock, sp_child_async_sock;$/;"	variable	line:23446	typeref:struct:
+sp_master_sync_sock	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^struct sockaddr_in sp_master_sync_sock, sp_master_async_sock;$/;"	variable	line:23447	typeref:struct:sockaddr_in
+sp_master_async_sock	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^struct sockaddr_in sp_master_sync_sock, sp_master_async_sock;$/;"	variable	line:23447	typeref:struct:
+sp_buf	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char *sp_buf;$/;"	variable	line:23448
+sp_command	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char sp_command[1024];$/;"	variable	line:23449
+sp_remote_shell	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char sp_remote_shell[100];$/;"	variable	line:23450
+sp_child_mode	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int sp_child_mode;$/;"	variable	line:23451
+sp_count	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int sp_count,sp_msize,sp_once;$/;"	variable	line:23452
+sp_msize	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int sp_count,sp_msize,sp_once;$/;"	variable	line:23452
+sp_once	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int sp_count,sp_msize,sp_once;$/;"	variable	line:23452
+sp_tcount	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int sp_tcount;$/;"	variable	line:23453
+sp_start_time	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^double sp_start_time,sp_finish_time;$/;"	variable	line:23454
+sp_finish_time	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^double sp_start_time,sp_finish_time;$/;"	variable	line:23454
+sp_cret	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int sp_cret;$/;"	variable	line:23460
+sp_remote_host	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char sp_remote_host[256];$/;"	variable	line:23461
+sp_master_host	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char sp_master_host[256];$/;"	variable	line:23462
+sp_location	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^char sp_location[256];$/;"	variable	line:23463
+speed_main	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^speed_main(char *client_name, char *e_path, long long reclen,$/;"	function	line:23471	signature:(char *client_name, char *e_path, long long reclen, long long kilos, int client_flag)
+sp_get_result	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^sp_get_result(int port,int flag)$/;"	function	line:23555	signature:(int port,int flag)
+sp_send_result	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^sp_send_result(int port, int count, float throughput)$/;"	function	line:23590	signature:(int port, int count, float throughput)
+sp_start_master_send	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^sp_start_master_send(char *sp_child_host_name, int sp_child_listen_port, struct in_addr *sp_my_ms_addr)$/;"	function	line:23618	signature:(char *sp_child_host_name, int sp_child_listen_port, struct in_addr *sp_my_ms_addr)
+sp_start_child_listen	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^sp_start_child_listen(int listen_port, int size_of_message)$/;"	function	line:23740	signature:(int listen_port, int size_of_message)
+sp_do_child_t	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^sp_do_child_t(void)$/;"	function	line:23837	signature:(void)
+sp_do_master_t	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^sp_do_master_t(void)$/;"	function	line:23915	signature:(void)
+sp_start_master_listen	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^sp_start_master_listen(int sp_master_listen_port, int sp_size_of_message)$/;"	function	line:23985	signature:(int sp_master_listen_port, int sp_size_of_message)
+sp_start_child_send	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^sp_start_child_send(char *sp_master_host_name, int sp_master_listen_port, struct in_addr *sp_my_cs_addr)$/;"	function	line:24078	signature:(char *sp_master_host_name, int sp_master_listen_port, struct in_addr *sp_my_cs_addr)
+do_speed_check	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^do_speed_check(int client_flag)$/;"	function	line:24189	signature:(int client_flag)
+get_date	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^get_date(char *where)$/;"	function	line:24215	signature:(char *where)
+get_pattern	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^get_pattern(void)$/;"	function	line:24243	signature:(void)
+alloc_pbuf	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^alloc_pbuf(void)$/;"	function	line:24279	signature:(void)
+check_filename	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^check_filename(char *name)$/;"	function	line:24306	signature:(char *name)
+start_monitor	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^start_monitor(char *test)$/;"	function	line:24337	signature:(char *test)
+stop_monitor	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^stop_monitor(char *test)$/;"	function	line:24355	signature:(char *test)
+special_gen_new_buf	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^special_gen_new_buf(char *ibuf, char *obuf, long seed, int size, int percent,$/;"	function	line:24392	signature:(char *ibuf, char *obuf, long seed, int size, int percent, int percent_interior, int percent_compress, int all)
+old_compressible_rand	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^old_compressible_rand(void)$/;"	function	line:24548	signature:(void)
+compressible_rand_16_int	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^compressible_rand_16_int(int *L_ptr)$/;"	function	line:24573	signature:(int *L_ptr)
+new_touch_dedup	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^new_touch_dedup(char *i, int size)$/;"	function	line:24610	signature:(char *i, int size)
+NN	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define NN /;"	macro	line:24699	file:
+MM	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define MM /;"	macro	line:24700	file:
+MATRIX_A	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define MATRIX_A /;"	macro	line:24701	file:
+UM	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define UM /;"	macro	line:24702	file:
+LM	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define LM /;"	macro	line:24703	file:
+mt	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^static unsigned long long mt[NN]; $/;"	variable	line:24707	file:
+mti	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^static int mti=NN+1; $/;"	variable	line:24709	file:
+init_genrand64	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^void init_genrand64(unsigned long long seed)$/;"	function	line:24712	signature:(unsigned long long seed)
+init_by_array64	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^void init_by_array64(unsigned long long init_key[],$/;"	function	line:24722	signature:(unsigned long long init_key[], unsigned long long key_length)
+genrand64_int64	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^unsigned long long genrand64_int64(void)$/;"	function	line:24747	signature:(void)
+genrand64_int63	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long genrand64_int63(void)$/;"	function	line:24785	signature:(void)
+genrand64_real1	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^double genrand64_real1(void)$/;"	function	line:24791	signature:(void)
+genrand64_real2	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^double genrand64_real2(void)$/;"	function	line:24797	signature:(void)
+genrand64_real3	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^double genrand64_real3(void)$/;"	function	line:24803	signature:(void)
+main	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int main(void)$/;"	function	line:24810	signature:(void)
+DFLT_SERVICE	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define DFLT_SERVICE /;"	macro	line:24863	file:
+INVALID_DESC	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define INVALID_DESC /;"	macro	line:24864	file:
+MAXBFRSIZE	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define MAXBFRSIZE /;"	macro	line:24865	file:
+false	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int false = 0;$/;"	variable	line:24871
+true	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int true = 1;$/;"	variable	line:24872
+false	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^typedef enum { false = 0, true } boolean;$/;"	enumerator	line:24874	enum:__anon1	file:
+true	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^typedef enum { false = 0, true } boolean;$/;"	enumerator	line:24874	enum:__anon1	file:
+boolean	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^typedef enum { false = 0, true } boolean;$/;"	typedef	line:24874	typeref:enum:__anon1	file:
+sockaddr_in_t	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^typedef struct sockaddr_in       sockaddr_in_t;$/;"	typedef	line:24876	typeref:struct:sockaddr_in	file:
+sockaddr_in6_t	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^typedef struct sockaddr_in6      sockaddr_in6_t;$/;"	typedef	line:24877	typeref:struct:sockaddr_in6	file:
+timezone	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^struct timezone {$/;"	struct	line:24883	file:
+tz_minuteswest	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int 				tz_minuteswest;				$/;"	member	line:24884	struct:timezone	file:
+tz_dsttime	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^	int 				tz_dsttime;							$/;"	member	line:24885	struct:timezone	file:
+pit_gettimeofday	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^pit_gettimeofday( struct timeval *tp, struct timezone *foo,$/;"	function	line:24890	signature:( struct timeval *tp, struct timezone *foo, char *pit_hostname, char *pit_service)
+openSckt	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^static int openSckt( const char   *host,$/;"	function	line:24924	file:	signature:( const char *host, const char *service, unsigned int scopeId )
+pit	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^static void pit( int sckt, struct timeval *tp)$/;"	function	line:25005	file:	signature:( int sckt, struct timeval *tp)
+sync	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^sync()$/;"	function	line:25030
+BUCKETS	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^#define BUCKETS /;"	macro	line:25036	file:
+buckets	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long buckets[BUCKETS];$/;"	variable	line:25037
+bucket_val	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^long long bucket_val[BUCKETS] =$/;"	variable	line:25038
+hist_insert	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^hist_insert(double my_value)$/;"	function	line:25080	signature:(double my_value)
+dump_hist	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^dump_hist(char *what,int id)$/;"	function	line:25109	signature:(char *what,int id)
+thread_fwrite_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^void * thread_fwrite_test(int x)$/;"	function	line:25242	signature:(int x)
+thread_fread_test	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^void * thread_fread_test(int x)$/;"	function	line:25715	signature:(int x)
+update_burst_sleep	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^static void update_burst_sleep(int fd, long long reclen, double *burst_sleep_time_till_now)$/;"	function	line:26154	file:	signature:(int fd, long long reclen, double *burst_sleep_time_till_now)
+count_burst	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^static void count_burst(double* burst_acc_time_sec, long long stream_id)$/;"	function	line:26178	file:	signature:(double* burst_acc_time_sec, long long stream_id)
+no_fork	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^pid_t no_fork(void)$/;"	function	line:26216	signature:(void)
+no_socket	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int no_socket(int x, int y, int z)$/;"	function	line:26224	signature:(int x, int y, int z)
+no_accept	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int no_accept(int sockfd, struct sockaddr *addr, socklen_t *addrlen)$/;"	function	line:26229	signature:(int sockfd, struct sockaddr *addr, socklen_t *addrlen)
+no_bind	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int no_bind(int sockfd, const struct sockaddr *my_addr, socklen_t addrlen)$/;"	function	line:26234	signature:(int sockfd, const struct sockaddr *my_addr, socklen_t addrlen)
+no_connect	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int  no_connect(int  sockfd,  const  struct  sockaddr  *serv_addr,  socklen_t addrlen)$/;"	function	line:26239	signature:(int sockfd, const struct sockaddr *serv_addr, socklen_t addrlen)
+no_kill	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^int no_kill(pid_t pid, int sig)$/;"	function	line:26247	signature:(pid_t pid, int sig)
+touch_dedup	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^touch_dedup(char *i, int size)$/;"	function	line:26259	signature:(char *i, int size)
+gen_new_buf	/Users/sharemy/Downloads/iozone3_492/src/current/iozone.c	/^gen_new_buf(char *ibuf, char *obuf, long seed, int size, int percent,$/;"	function	line:26297	signature:(char *ibuf, char *obuf, long seed, int size, int percent, int percent_interior, int percent_compress, int all)
+errno	/Users/sharemy/Downloads/iozone3_492/src/current/pit_server.c	/^int errno;$/;"	variable	line:42
+DFLT_SERVICE	/Users/sharemy/Downloads/iozone3_492/src/current/pit_server.c	/^#define DFLT_SERVICE /;"	macro	line:54	file:
+INVALID_DESC	/Users/sharemy/Downloads/iozone3_492/src/current/pit_server.c	/^#define INVALID_DESC /;"	macro	line:56	file:
+MAXCONNQLEN	/Users/sharemy/Downloads/iozone3_492/src/current/pit_server.c	/^#define MAXCONNQLEN /;"	macro	line:57	file:
+MAXTCPSCKTS	/Users/sharemy/Downloads/iozone3_492/src/current/pit_server.c	/^#define MAXTCPSCKTS /;"	macro	line:58	file:
+MAXUDPSCKTS	/Users/sharemy/Downloads/iozone3_492/src/current/pit_server.c	/^#define MAXUDPSCKTS /;"	macro	line:59	file:
+VALIDOPTS	/Users/sharemy/Downloads/iozone3_492/src/current/pit_server.c	/^#define VALIDOPTS /;"	macro	line:60	file:
+false	/Users/sharemy/Downloads/iozone3_492/src/current/pit_server.c	/^int false = 0;$/;"	variable	line:64
+true	/Users/sharemy/Downloads/iozone3_492/src/current/pit_server.c	/^int true = 1;$/;"	variable	line:65
+hostBfr	/Users/sharemy/Downloads/iozone3_492/src/current/pit_server.c	/^static char        hostBfr[ NI_MAXHOST ];   \/* For use w\/getnameinfo(3).    *\/$/;"	variable	line:80	file:
+pgmName	/Users/sharemy/Downloads/iozone3_492/src/current/pit_server.c	/^static const char *pgmName;                 \/* Program name w\/o dir prefix. *\/$/;"	variable	line:81	file:
+servBfr	/Users/sharemy/Downloads/iozone3_492/src/current/pit_server.c	/^static char        servBfr[ NI_MAXSERV ];   \/* For use w\/getnameinfo(3).    *\/$/;"	variable	line:82	file:
+verbose	/Users/sharemy/Downloads/iozone3_492/src/current/pit_server.c	/^static int     	   verbose = 0;             \/* Verbose mode indication.     *\/$/;"	variable	line:83	file:
+tm	/Users/sharemy/Downloads/iozone3_492/src/current/pit_server.c	/^struct timeval tm;  \/* Timeval structure, used with gettimeofday() *\/$/;"	variable	line:84	typeref:struct:timeval
+timeStr	/Users/sharemy/Downloads/iozone3_492/src/current/pit_server.c	/^char   timeStr[40]; \/* String for time in microseconds *\/$/;"	variable	line:85
+service_name	/Users/sharemy/Downloads/iozone3_492/src/current/pit_server.c	/^char service_name[20];$/;"	variable	line:86
+need	/Users/sharemy/Downloads/iozone3_492/src/current/pit_server.c	/^int need;$/;"	variable	line:87
+USAGE	/Users/sharemy/Downloads/iozone3_492/src/current/pit_server.c	/^#define USAGE /;"	macro	line:91	file:
+CHK	/Users/sharemy/Downloads/iozone3_492/src/current/pit_server.c	/^#define CHK(/;"	macro	line:102	file:
+main	/Users/sharemy/Downloads/iozone3_492/src/current/pit_server.c	/^int main( int   argc,$/;"	function	line:129	signature:( int argc, char *argv[ ] )
+openSckt	/Users/sharemy/Downloads/iozone3_492/src/current/pit_server.c	/^static int openSckt( const char *service,$/;"	function	line:231	file:	signature:( const char *service, const char *protocol, int desc[ ], size_t *descSize )
+pit	/Users/sharemy/Downloads/iozone3_492/src/current/pit_server.c	/^static void pit( int    tSckt[ ],$/;"	function	line:489	file:	signature:( int tSckt[ ], size_t tScktSize, int uSckt[ ], size_t uScktSize )
+PATH_MAX	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^#define PATH_MAX /;"	macro	line:68	file:
+junk	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^int junk, *junkp;$/;"	variable	line:77
+junkp	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^int junk, *junkp;$/;"	variable	line:77
+x	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^int x,excel;$/;"	variable	line:78
+excel	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^int x,excel;$/;"	variable	line:78
+verbose	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^int verbose = 0;$/;"	variable	line:79
+sz	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^int sz = 1;$/;"	variable	line:80
+mbuffer	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^char *mbuffer;$/;"	variable	line:81
+incr	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^int incr = 1;$/;"	variable	line:82
+_STAT_CREATE	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^#define _STAT_CREATE /;"	macro	line:83	file:
+_STAT_WRITE	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^#define _STAT_WRITE /;"	macro	line:84	file:
+_STAT_CLOSE	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^#define _STAT_CLOSE /;"	macro	line:85	file:
+_STAT_LINK	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^#define _STAT_LINK /;"	macro	line:86	file:
+_STAT_UNLINK	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^#define _STAT_UNLINK /;"	macro	line:87	file:
+_STAT_DELETE	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^#define _STAT_DELETE /;"	macro	line:88	file:
+_STAT_STAT	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^#define _STAT_STAT /;"	macro	line:89	file:
+_STAT_ACCESS	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^#define _STAT_ACCESS /;"	macro	line:90	file:
+_STAT_CHMOD	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^#define _STAT_CHMOD /;"	macro	line:91	file:
+_STAT_READDIR	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^#define _STAT_READDIR /;"	macro	line:92	file:
+_STAT_DIR_CREATE	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^#define _STAT_DIR_CREATE /;"	macro	line:93	file:
+_STAT_DIR_DELETE	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^#define _STAT_DIR_DELETE /;"	macro	line:94	file:
+_STAT_READ	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^#define _STAT_READ /;"	macro	line:95	file:
+_STAT_OPEN	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^#define _STAT_OPEN /;"	macro	line:96	file:
+_STAT_DIR_TRAVERSE	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^#define _STAT_DIR_TRAVERSE /;"	macro	line:97	file:
+_NUM_STATS	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^#define _NUM_STATS /;"	macro	line:98	file:
+stat_struct	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^struct stat_struct {$/;"	struct	line:99	file:
+starttime	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^	double starttime;$/;"	member	line:100	struct:stat_struct	file:
+endtime	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^	double endtime;$/;"	member	line:101	struct:stat_struct	file:
+speed	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^	double speed;$/;"	member	line:102	struct:stat_struct	file:
+best	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^	double best;$/;"	member	line:103	struct:stat_struct	file:
+worst	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^	double worst;$/;"	member	line:104	struct:stat_struct	file:
+dummy	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^	double dummy;$/;"	member	line:105	struct:stat_struct	file:
+total_time	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^	double total_time;$/;"	member	line:106	struct:stat_struct	file:
+dummy1	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^	double dummy1;$/;"	member	line:107	struct:stat_struct	file:
+counter	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^	long long counter;$/;"	member	line:108	struct:stat_struct	file:
+stats	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^} volatile stats[_NUM_STATS];$/;"	variable	line:109
+THISVERSION	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^#define THISVERSION /;"	macro	line:130	file:
+version	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^char version[]=THISVERSION;$/;"	variable	line:133
+thedir	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^char thedir[PATH_MAX]="."; \/* Default is to use the current directory *\/$/;"	variable	line:134
+mountname	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^const char *mountname=NULL; \/* Default is not to unmount anything between the tests *\/$/;"	variable	line:135
+cret	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^int cret;$/;"	variable	line:137
+lower	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^int lower, upper,range;$/;"	variable	line:138
+upper	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^int lower, upper,range;$/;"	variable	line:138
+range	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^int lower, upper,range;$/;"	variable	line:138
+i	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^int i;$/;"	variable	line:139
+best	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^int best, worst;$/;"	variable	line:140
+worst	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^int best, worst;$/;"	variable	line:140
+dirlen	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^int dirlen;$/;"	variable	line:141
+purge_buffer_cache	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^void purge_buffer_cache()$/;"	function	line:146
+main	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^int main(int argc, char **argv)$/;"	function	line:175	signature:(int argc, char **argv)
+dir_create	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^dir_create(int x)$/;"	function	line:593	signature:(int x)
+dir_traverse	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^dir_traverse(int x)$/;"	function	line:672	signature:(int x)
+file_create	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^file_create(int x)$/;"	function	line:739	signature:(int x)
+file_stat	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^file_stat(int x)$/;"	function	line:829	signature:(int x)
+file_access	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^file_access(int x)$/;"	function	line:872	signature:(int x)
+file_chmod	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^file_chmod(int x)$/;"	function	line:915	signature:(int x)
+file_readdir	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^file_readdir(int x)$/;"	function	line:958	signature:(int x)
+file_link	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^file_link(int x)$/;"	function	line:1010	signature:(int x)
+file_unlink	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^file_unlink(int x)$/;"	function	line:1054	signature:(int x)
+dir_delete	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^dir_delete(int x)$/;"	function	line:1098	signature:(int x)
+file_delete	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^file_delete(int x)$/;"	function	line:1163	signature:(int x)
+file_read	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^file_read(int x)$/;"	function	line:1203	signature:(int x)
+time_so_far	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^time_so_far(void)$/;"	function	line:1275	file:	signature:(void)
+splash	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^splash(void)$/;"	function	line:1314	signature:(void)
+usage	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^usage(void)$/;"	function	line:1329	signature:(void)
+clear_stats	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^clear_stats()$/;"	function	line:1365
+validate	/Users/sharemy/Downloads/iozone3_492/src/current/fileop.c	/^validate(char *buffer, int size, char value)$/;"	function	line:1372	signature:(char *buffer, int size, char value)
+ENDIAN_1	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^#define ENDIAN_1 /;"	macro	line:50	file:
+ENDIAN_2	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^#define ENDIAN_2 /;"	macro	line:52	file:
+ENDIAN_3	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^#define ENDIAN_3 /;"	macro	line:54	file:
+ENDIAN_4	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^#define ENDIAN_4 /;"	macro	line:56	file:
+junk1	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^int junk1, *junkp;$/;"	variable	line:58
+junkp	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^int junk1, *junkp;$/;"	variable	line:58
+libbif_version	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^char libbif_version[] = "Libbif Version $Revision: 3.33 $";$/;"	variable	line:94
+BOF	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^#define BOF /;"	macro	line:97	file:
+INTEGER	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^#define INTEGER /;"	macro	line:98	file:
+FLOAT	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^#define FLOAT /;"	macro	line:99	file:
+LABEL	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^#define LABEL /;"	macro	line:100	file:
+EXCEL_VERS	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^#define EXCEL_VERS /;"	macro	line:101	file:
+WORKSHEET	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^#define WORKSHEET /;"	macro	line:102	file:
+bof_record	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^struct bof_record{ 		\/* Beginning of file *\/$/;"	struct	line:104	file:
+hi_opcode	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char hi_opcode;$/;"	member	line:105	struct:bof_record	file:
+lo_opcode	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char lo_opcode;$/;"	member	line:106	struct:bof_record	file:
+hi_length	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char hi_length;$/;"	member	line:107	struct:bof_record	file:
+lo_length	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char lo_length;$/;"	member	line:108	struct:bof_record	file:
+hi_version	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char hi_version;	\/* Excel version *\/$/;"	member	line:109	struct:bof_record	file:
+lo_version	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char lo_version;$/;"	member	line:110	struct:bof_record	file:
+hi_filetype	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char hi_filetype;$/;"	member	line:111	struct:bof_record	file:
+lo_filetype	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char lo_filetype;$/;"	member	line:112	struct:bof_record	file:
+int_record	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^struct int_record {$/;"	struct	line:114	file:
+hi_opcode	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char hi_opcode;		\/* Type 2 of record *\/$/;"	member	line:115	struct:int_record	file:
+lo_opcode	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char lo_opcode;$/;"	member	line:116	struct:int_record	file:
+hi_length	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char hi_length;$/;"	member	line:117	struct:int_record	file:
+lo_length	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char lo_length;$/;"	member	line:118	struct:int_record	file:
+hi_row	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char hi_row;$/;"	member	line:119	struct:int_record	file:
+lo_row	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char lo_row;$/;"	member	line:120	struct:int_record	file:
+hi_column	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char hi_column;$/;"	member	line:121	struct:int_record	file:
+lo_column	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char lo_column;$/;"	member	line:122	struct:int_record	file:
+rgbhi	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char rgbhi;$/;"	member	line:123	struct:int_record	file:
+rgbmed	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char rgbmed;$/;"	member	line:124	struct:int_record	file:
+rgblo	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char rgblo;$/;"	member	line:125	struct:int_record	file:
+hi_data	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char hi_data;$/;"	member	line:126	struct:int_record	file:
+lo_data	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char lo_data;$/;"	member	line:127	struct:int_record	file:
+label_record	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^struct label_record {$/;"	struct	line:129	file:
+hi_opcode	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char hi_opcode;		\/* Type 4 of record *\/$/;"	member	line:130	struct:label_record	file:
+lo_opcode	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char lo_opcode;$/;"	member	line:131	struct:label_record	file:
+hi_length	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char hi_length;$/;"	member	line:132	struct:label_record	file:
+lo_length	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char lo_length;$/;"	member	line:133	struct:label_record	file:
+hi_row	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char hi_row;$/;"	member	line:134	struct:label_record	file:
+lo_row	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char lo_row;$/;"	member	line:135	struct:label_record	file:
+hi_column	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char hi_column;$/;"	member	line:136	struct:label_record	file:
+lo_column	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char lo_column;$/;"	member	line:137	struct:label_record	file:
+rgbhi	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char rgbhi;$/;"	member	line:138	struct:label_record	file:
+rgbmed	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char rgbmed;$/;"	member	line:139	struct:label_record	file:
+rgblo	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char rgblo;$/;"	member	line:140	struct:label_record	file:
+string_length	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char string_length;$/;"	member	line:141	struct:label_record	file:
+str_array	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char str_array[256];$/;"	member	line:142	struct:label_record	file:
+float_record	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^struct float_record {		\/* Type 3 record *\/$/;"	struct	line:144	file:
+hi_opcode	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char hi_opcode;$/;"	member	line:145	struct:float_record	file:
+lo_opcode	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char lo_opcode;$/;"	member	line:146	struct:float_record	file:
+hi_length	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char hi_length;$/;"	member	line:147	struct:float_record	file:
+lo_length	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char lo_length;$/;"	member	line:148	struct:float_record	file:
+hi_row	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char hi_row;$/;"	member	line:149	struct:float_record	file:
+lo_row	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char lo_row;$/;"	member	line:150	struct:float_record	file:
+hi_column	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char hi_column;$/;"	member	line:151	struct:float_record	file:
+lo_column	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char lo_column;$/;"	member	line:152	struct:float_record	file:
+rgbhi	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char rgbhi;$/;"	member	line:153	struct:float_record	file:
+rgbmed	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char rgbmed;$/;"	member	line:154	struct:float_record	file:
+rgblo	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	char rgblo;$/;"	member	line:155	struct:float_record	file:
+data	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^	double data;$/;"	member	line:156	struct:float_record	file:
+close_xls	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^close_xls(int fd)$/;"	function	line:185	signature:(int fd)
+create_xls	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^create_xls(char *name)$/;"	function	line:202	signature:(char *name)
+do_header	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^do_header(int fd) \/* Stick the BOF at the beginning of the file *\/$/;"	function	line:227	signature:(int fd)
+do_int	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^do_int(int fd,int val, int row, int column)$/;"	function	line:252	signature:(int fd,int val, int row, int column)
+do_float	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^do_float(int fd, double value, int row, int column)$/;"	function	line:289	signature:(int fd, double value, int row, int column)
+do_label	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^do_label(int fd, char *string, int row, int column)$/;"	function	line:373	signature:(int fd, char *string, int row, int column)
+do_eof	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^do_eof(int fd) $/;"	function	line:417	signature:(int fd)
+endian	/Users/sharemy/Downloads/iozone3_492/src/current/libbif.c	/^endian(void)$/;"	function	line:436	signature:(void)
+compiling iozone	/Users/sharemy/Downloads/iozone3_492/src/current/Android_Readme.md	/^# compiling iozone$/;"	function	line:1
