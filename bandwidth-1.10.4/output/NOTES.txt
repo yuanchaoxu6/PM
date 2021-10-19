@@ -1,0 +1,3 @@
+
+The Apple M1's speed was reported by Apple's utility program /usr/bin/powermetrics. 3.2GHz is presumably its burst mode frequency.
+
